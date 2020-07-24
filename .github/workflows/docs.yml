@@ -22,7 +22,7 @@ jobs:
         path: node_modules
         key: ${{ runner.os }}-12-${{ hashFiles('**/package-lock.json') }}
     - name: Install Dependencies
-      run: npm
+      run: npm install
     - name: Publish Docs
       run: |
         #!/bin/bash
