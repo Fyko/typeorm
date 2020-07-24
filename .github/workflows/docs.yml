@@ -20,9 +20,9 @@ jobs:
       uses: actions/cache@v1
       with:
         path: node_modules
-        key: ${{ runner.os }}-12-${{ hashFiles('**/yarn.lock') }}
+        key: ${{ runner.os }}-12-${{ hashFiles('**/package-lock.json') }}
     - name: Install Dependencies
-      run: yarn
+      run: npm
     - name: Publish Docs
       run: |
         #!/bin/bash
@@ -43,7 +43,7 @@ jobs:
         TARGET_BRANCH="gh-pages"
         git clone $REPO out -b $TARGET_BRANCH
 
-        yarn docs:html
+        npm run docs:html
 
         echo -e "\n# Move the generated docs to the newly-checked-out repo, to be committed and pushed"
         rsync -vau docs/ out/
