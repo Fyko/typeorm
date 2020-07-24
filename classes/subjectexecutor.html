@@ -1,0 +1,777 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>SubjectExecutor | typeorm</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">typeorm</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="subjectexecutor.html">SubjectExecutor</a>
+				</li>
+			</ul>
+			<h1>Class SubjectExecutor</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Executes all database operations (inserts, updated, deletes) that must be executed
+						with given persistence subjects.</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">SubjectExecutor</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="subjectexecutor.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#allsubjects" class="tsd-kind-icon">all<wbr>Subjects</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="subjectexecutor.html#hasexecutableoperations" class="tsd-kind-icon">has<wbr>Executable<wbr>Operations</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#insertsubjects" class="tsd-kind-icon">insert<wbr>Subjects</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#options" class="tsd-kind-icon">options</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#queryrunner" class="tsd-kind-icon">query<wbr>Runner</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#recoversubjects" class="tsd-kind-icon">recover<wbr>Subjects</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#removesubjects" class="tsd-kind-icon">remove<wbr>Subjects</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#softremovesubjects" class="tsd-kind-icon">soft<wbr>Remove<wbr>Subjects</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#updatesubjects" class="tsd-kind-icon">update<wbr>Subjects</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#broadcastaftereventsforall" class="tsd-kind-icon">broadcast<wbr>After<wbr>Events<wbr>For<wbr>All</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#broadcastbeforeeventsforall" class="tsd-kind-icon">broadcast<wbr>Before<wbr>Events<wbr>For<wbr>All</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="subjectexecutor.html#execute" class="tsd-kind-icon">execute</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#executeinsertoperations" class="tsd-kind-icon">execute<wbr>Insert<wbr>Operations</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#executerecoveroperations" class="tsd-kind-icon">execute<wbr>Recover<wbr>Operations</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#executeremoveoperations" class="tsd-kind-icon">execute<wbr>Remove<wbr>Operations</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#executesoftremoveoperations" class="tsd-kind-icon">execute<wbr>Soft<wbr>Remove<wbr>Operations</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#executeupdateoperations" class="tsd-kind-icon">execute<wbr>Update<wbr>Operations</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#groupbulksubjects" class="tsd-kind-icon">group<wbr>Bulk<wbr>Subjects</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#recompute" class="tsd-kind-icon">recompute</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#updatespecialcolumnsininsertedandupdatedentities" class="tsd-kind-icon">update<wbr>Special<wbr>Columns<wbr>InInserted<wbr>And<wbr>Updated<wbr>Entities</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#updatespecialcolumnsinpersistedentities" class="tsd-kind-icon">update<wbr>Special<wbr>Columns<wbr>InPersisted<wbr>Entities</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="subjectexecutor.html#validate" class="tsd-kind-icon">validate</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Subject<wbr>Executor<span class="tsd-signature-symbol">(</span>queryRunner<span class="tsd-signature-symbol">: </span><a href="../interfaces/queryrunner.html" class="tsd-signature-type">QueryRunner</a>, subjects<span class="tsd-signature-symbol">: </span><a href="subject.html" class="tsd-signature-type">Subject</a><span class="tsd-signature-symbol">[]</span>, options<span class="tsd-signature-symbol">?: </span><a href="../interfaces/saveoptions.html" class="tsd-signature-type">SaveOptions</a><span class="tsd-signature-symbol"> &amp; </span><a href="../interfaces/removeoptions.html" class="tsd-signature-type">RemoveOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="subjectexecutor.html" class="tsd-signature-type">SubjectExecutor</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L79">src/persistence/SubjectExecutor.ts:79</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>queryRunner: <a href="../interfaces/queryrunner.html" class="tsd-signature-type">QueryRunner</a></h5>
+								</li>
+								<li>
+									<h5>subjects: <a href="subject.html" class="tsd-signature-type">Subject</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> options: <a href="../interfaces/saveoptions.html" class="tsd-signature-type">SaveOptions</a><span class="tsd-signature-symbol"> &amp; </span><a href="../interfaces/removeoptions.html" class="tsd-signature-type">RemoveOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="subjectexecutor.html" class="tsd-signature-type">SubjectExecutor</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="allsubjects" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> all<wbr>Subjects</h3>
+					<div class="tsd-signature tsd-kind-icon">all<wbr>Subjects<span class="tsd-signature-symbol">:</span> <a href="subject.html" class="tsd-signature-type">Subject</a><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L54">src/persistence/SubjectExecutor.ts:54</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>All subjects that needs to be operated.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="hasexecutableoperations" class="tsd-anchor"></a>
+					<h3>has<wbr>Executable<wbr>Operations</h3>
+					<div class="tsd-signature tsd-kind-icon">has<wbr>Executable<wbr>Operations<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;false</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L35">src/persistence/SubjectExecutor.ts:35</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Indicates if executor has any operations to execute (e.g. has insert / update / delete operations to be executed).</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="insertsubjects" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> insert<wbr>Subjects</h3>
+					<div class="tsd-signature tsd-kind-icon">insert<wbr>Subjects<span class="tsd-signature-symbol">:</span> <a href="subject.html" class="tsd-signature-type">Subject</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L59">src/persistence/SubjectExecutor.ts:59</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Subjects that must be inserted.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="options" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagOptional">Optional</span> options</h3>
+					<div class="tsd-signature tsd-kind-icon">options<span class="tsd-signature-symbol">:</span> <a href="../interfaces/saveoptions.html" class="tsd-signature-type">SaveOptions</a><span class="tsd-signature-symbol"> &amp; </span><a href="../interfaces/removeoptions.html" class="tsd-signature-type">RemoveOptions</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L49">src/persistence/SubjectExecutor.ts:49</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Persistence options.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="queryrunner" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> query<wbr>Runner</h3>
+					<div class="tsd-signature tsd-kind-icon">query<wbr>Runner<span class="tsd-signature-symbol">:</span> <a href="../interfaces/queryrunner.html" class="tsd-signature-type">QueryRunner</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L44">src/persistence/SubjectExecutor.ts:44</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>QueryRunner used to execute all queries with a given subjects.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="recoversubjects" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> recover<wbr>Subjects</h3>
+					<div class="tsd-signature tsd-kind-icon">recover<wbr>Subjects<span class="tsd-signature-symbol">:</span> <a href="subject.html" class="tsd-signature-type">Subject</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L79">src/persistence/SubjectExecutor.ts:79</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Subjects that must be recovered.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="removesubjects" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> remove<wbr>Subjects</h3>
+					<div class="tsd-signature tsd-kind-icon">remove<wbr>Subjects<span class="tsd-signature-symbol">:</span> <a href="subject.html" class="tsd-signature-type">Subject</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L69">src/persistence/SubjectExecutor.ts:69</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Subjects that must be removed.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="softremovesubjects" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> soft<wbr>Remove<wbr>Subjects</h3>
+					<div class="tsd-signature tsd-kind-icon">soft<wbr>Remove<wbr>Subjects<span class="tsd-signature-symbol">:</span> <a href="subject.html" class="tsd-signature-type">Subject</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L74">src/persistence/SubjectExecutor.ts:74</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Subjects that must be soft-removed.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="updatesubjects" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> update<wbr>Subjects</h3>
+					<div class="tsd-signature tsd-kind-icon">update<wbr>Subjects<span class="tsd-signature-symbol">:</span> <a href="subject.html" class="tsd-signature-type">Subject</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L64">src/persistence/SubjectExecutor.ts:64</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Subjects that must be updated.</p>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="broadcastaftereventsforall" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> broadcast<wbr>After<wbr>Events<wbr>For<wbr>All</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">broadcast<wbr>After<wbr>Events<wbr>For<wbr>All<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="broadcasterresult.html" class="tsd-signature-type">BroadcasterResult</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L228">src/persistence/SubjectExecutor.ts:228</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Broadcasts &quot;AFTER_INSERT&quot;, &quot;AFTER_UPDATE&quot;, &quot;AFTER_REMOVE&quot; events for all given subjects.
+										Returns void if there wasn&#39;t any listener or subscriber executed.
+									Note: this method has a performance-optimized code organization.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <a href="broadcasterresult.html" class="tsd-signature-type">BroadcasterResult</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="broadcastbeforeeventsforall" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> broadcast<wbr>Before<wbr>Events<wbr>For<wbr>All</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">broadcast<wbr>Before<wbr>Events<wbr>For<wbr>All<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="broadcasterresult.html" class="tsd-signature-type">BroadcasterResult</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L208">src/persistence/SubjectExecutor.ts:208</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Broadcasts &quot;BEFORE_INSERT&quot;, &quot;BEFORE_UPDATE&quot;, &quot;BEFORE_REMOVE&quot; events for all given subjects.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <a href="broadcasterresult.html" class="tsd-signature-type">BroadcasterResult</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="execute" class="tsd-anchor"></a>
+					<h3>execute</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">execute<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L101">src/persistence/SubjectExecutor.ts:101</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Executes all operations over given array of subjects.
+									Executes queries using given query runner.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="executeinsertoperations" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> execute<wbr>Insert<wbr>Operations</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">execute<wbr>Insert<wbr>Operations<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L246">src/persistence/SubjectExecutor.ts:246</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Executes insert operations.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="executerecoveroperations" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> execute<wbr>Recover<wbr>Operations</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">execute<wbr>Recover<wbr>Operations<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L582">src/persistence/SubjectExecutor.ts:582</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Recovers all given subjects in the database.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="executeremoveoperations" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> execute<wbr>Remove<wbr>Operations</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">execute<wbr>Remove<wbr>Operations<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L463">src/persistence/SubjectExecutor.ts:463</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Removes all given subjects from the database.</p>
+								</div>
+								<p>todo: we need to apply topological sort here as well</p>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="executesoftremoveoperations" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> execute<wbr>Soft<wbr>Remove<wbr>Operations</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">execute<wbr>Soft<wbr>Remove<wbr>Operations<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L502">src/persistence/SubjectExecutor.ts:502</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Soft-removes all given subjects in the database.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="executeupdateoperations" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> execute<wbr>Update<wbr>Operations</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">execute<wbr>Update<wbr>Operations<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L383">src/persistence/SubjectExecutor.ts:383</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Updates all given subjects in the database.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="groupbulksubjects" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> group<wbr>Bulk<wbr>Subjects</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">group<wbr>Bulk<wbr>Subjects<span class="tsd-signature-symbol">(</span>subjects<span class="tsd-signature-symbol">: </span><a href="subject.html" class="tsd-signature-type">Subject</a><span class="tsd-signature-symbol">[]</span>, type<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">"insert"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"delete"</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L768">src/persistence/SubjectExecutor.ts:768</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Groups subjects by metadata names (by tables) to make bulk insertions and deletions possible.
+										However there are some limitations with bulk insertions of data into tables with generated (increment) columns
+										in some drivers. Some drivers like mysql and sqlite does not support returning multiple generated columns
+										after insertion and can only return a single generated column value, that&#39;s why its not possible to do bulk insertion,
+										because it breaks insertion result&#39;s generatedMap and leads to problems when this subject is used in other subjects saves.
+									That&#39;s why we only support bulking in junction tables for those drivers.</p>
+								</div>
+								<p>Other drivers like postgres and sql server support RETURNING / OUTPUT statement which allows to return generated
+								id for each inserted row, that&#39;s why bulk insertion is not limited to junction tables in there.</p>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>subjects: <a href="subject.html" class="tsd-signature-type">Subject</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+								<li>
+									<h5>type: <span class="tsd-signature-type">"insert"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"delete"</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="recompute" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> recompute</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">recompute<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L195">src/persistence/SubjectExecutor.ts:195</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Performs entity re-computations - finds changed columns, re-builds insert/update/remove subjects.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="updatespecialcolumnsininsertedandupdatedentities" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> update<wbr>Special<wbr>Columns<wbr>InInserted<wbr>And<wbr>Updated<wbr>Entities</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">update<wbr>Special<wbr>Columns<wbr>InInserted<wbr>And<wbr>Updated<wbr>Entities<span class="tsd-signature-symbol">(</span>subjects<span class="tsd-signature-symbol">: </span><a href="subject.html" class="tsd-signature-type">Subject</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L716">src/persistence/SubjectExecutor.ts:716</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Updates all special columns of the saving entities (create date, update date, version, etc.).
+									Also updates nullable columns and columns with default values.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>subjects: <a href="subject.html" class="tsd-signature-type">Subject</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="updatespecialcolumnsinpersistedentities" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> update<wbr>Special<wbr>Columns<wbr>InPersisted<wbr>Entities</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">update<wbr>Special<wbr>Columns<wbr>InPersisted<wbr>Entities<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L663">src/persistence/SubjectExecutor.ts:663</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Updates all special columns of the saving entities (create date, update date, version, etc.).
+									Also updates nullable columns and columns with default values.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="validate" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> validate</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">validate<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/persistence/SubjectExecutor.ts#L185">src/persistence/SubjectExecutor.ts:185</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Validates all given subjects.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="subjectexecutor.html" class="tsd-kind-icon">Subject<wbr>Executor</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="subjectexecutor.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#allsubjects" class="tsd-kind-icon">all<wbr>Subjects</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="subjectexecutor.html#hasexecutableoperations" class="tsd-kind-icon">has<wbr>Executable<wbr>Operations</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#insertsubjects" class="tsd-kind-icon">insert<wbr>Subjects</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#options" class="tsd-kind-icon">options</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#queryrunner" class="tsd-kind-icon">query<wbr>Runner</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#recoversubjects" class="tsd-kind-icon">recover<wbr>Subjects</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#removesubjects" class="tsd-kind-icon">remove<wbr>Subjects</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#softremovesubjects" class="tsd-kind-icon">soft<wbr>Remove<wbr>Subjects</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#updatesubjects" class="tsd-kind-icon">update<wbr>Subjects</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#broadcastaftereventsforall" class="tsd-kind-icon">broadcast<wbr>After<wbr>Events<wbr>For<wbr>All</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#broadcastbeforeeventsforall" class="tsd-kind-icon">broadcast<wbr>Before<wbr>Events<wbr>For<wbr>All</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="subjectexecutor.html#execute" class="tsd-kind-icon">execute</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#executeinsertoperations" class="tsd-kind-icon">execute<wbr>Insert<wbr>Operations</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#executerecoveroperations" class="tsd-kind-icon">execute<wbr>Recover<wbr>Operations</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#executeremoveoperations" class="tsd-kind-icon">execute<wbr>Remove<wbr>Operations</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#executesoftremoveoperations" class="tsd-kind-icon">execute<wbr>Soft<wbr>Remove<wbr>Operations</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#executeupdateoperations" class="tsd-kind-icon">execute<wbr>Update<wbr>Operations</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#groupbulksubjects" class="tsd-kind-icon">group<wbr>Bulk<wbr>Subjects</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#recompute" class="tsd-kind-icon">recompute</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#updatespecialcolumnsininsertedandupdatedentities" class="tsd-kind-icon">update<wbr>Special<wbr>Columns<wbr>InInserted<wbr>And<wbr>Updated<wbr>Entities</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#updatespecialcolumnsinpersistedentities" class="tsd-kind-icon">update<wbr>Special<wbr>Columns<wbr>InPersisted<wbr>Entities</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="subjectexecutor.html#validate" class="tsd-kind-icon">validate</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

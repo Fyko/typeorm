@@ -1,0 +1,1726 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>MongoConnectionOptions | typeorm</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">typeorm</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="mongoconnectionoptions.html">MongoConnectionOptions</a>
+				</li>
+			</ul>
+			<h1>Interface MongoConnectionOptions</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>MongoDB specific connection options.
+						Synced with <a href="http://mongodb.github.io/node-mongodb-native/3.1/api/MongoClient.html">http://mongodb.github.io/node-mongodb-native/3.1/api/MongoClient.html</a></p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<a href="baseconnectionoptions.html" class="tsd-signature-type">BaseConnectionOptions</a>
+						<ul class="tsd-hierarchy">
+							<li>
+								<span class="target">MongoConnectionOptions</span>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#acceptablelatencyms" class="tsd-kind-icon">acceptable<wbr>LatencyMS</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#appname" class="tsd-kind-icon">appname</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#authmechanism" class="tsd-kind-icon">auth<wbr>Mechanism</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#authsource" class="tsd-kind-icon">auth<wbr>Source</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#autoreconnect" class="tsd-kind-icon">auto<wbr>Reconnect</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#auto_reconnect" class="tsd-kind-icon">auto_<wbr>reconnect</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#buffermaxentries" class="tsd-kind-icon">buffer<wbr>Max<wbr>Entries</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="mongoconnectionoptions.html#cache" class="tsd-kind-icon">cache</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#checkserveridentity" class="tsd-kind-icon">check<wbr>Server<wbr>Identity</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="mongoconnectionoptions.html#cli" class="tsd-kind-icon">cli</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#compression" class="tsd-kind-icon">compression</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#connecttimeoutms" class="tsd-kind-icon">connect<wbr>TimeoutMS</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#connectwithnoprimary" class="tsd-kind-icon">connect<wbr>With<wbr>NoPrimary</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#database" class="tsd-kind-icon">database</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#domainsenabled" class="tsd-kind-icon">domains<wbr>Enabled</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="mongoconnectionoptions.html#dropschema" class="tsd-kind-icon">drop<wbr>Schema</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="mongoconnectionoptions.html#entities" class="tsd-kind-icon">entities</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="mongoconnectionoptions.html#entityprefix" class="tsd-kind-icon">entity<wbr>Prefix</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="mongoconnectionoptions.html#extra" class="tsd-kind-icon">extra</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#family" class="tsd-kind-icon">family</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#forceserverobjectid" class="tsd-kind-icon">force<wbr>Server<wbr>Object<wbr>Id</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#fsync" class="tsd-kind-icon">fsync</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#ha" class="tsd-kind-icon">ha</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#hainterval" class="tsd-kind-icon">ha<wbr>Interval</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#host" class="tsd-kind-icon">host</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#ignoreundefined" class="tsd-kind-icon">ignore<wbr>Undefined</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#j" class="tsd-kind-icon">j</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#keepalive" class="tsd-kind-icon">keep<wbr>Alive</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="mongoconnectionoptions.html#logger" class="tsd-kind-icon">logger</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#loggerlevel" class="tsd-kind-icon">logger<wbr>Level</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="mongoconnectionoptions.html#logging" class="tsd-kind-icon">logging</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="mongoconnectionoptions.html#maxqueryexecutiontime" class="tsd-kind-icon">max<wbr>Query<wbr>Execution<wbr>Time</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#maxstalenessseconds" class="tsd-kind-icon">max<wbr>Staleness<wbr>Seconds</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="mongoconnectionoptions.html#migrations" class="tsd-kind-icon">migrations</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="mongoconnectionoptions.html#migrationsrun" class="tsd-kind-icon">migrations<wbr>Run</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="mongoconnectionoptions.html#migrationstablename" class="tsd-kind-icon">migrations<wbr>Table<wbr>Name</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="mongoconnectionoptions.html#migrationstransactionmode" class="tsd-kind-icon">migrations<wbr>Transaction<wbr>Mode</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#minsize" class="tsd-kind-icon">min<wbr>Size</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#monitorcommands" class="tsd-kind-icon">monitor<wbr>Commands</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="mongoconnectionoptions.html#name" class="tsd-kind-icon">name</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="mongoconnectionoptions.html#namingstrategy" class="tsd-kind-icon">naming<wbr>Strategy</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#nodelay" class="tsd-kind-icon">no<wbr>Delay</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#numberofretries" class="tsd-kind-icon">number<wbr>OfRetries</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#password" class="tsd-kind-icon">password</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#pkfactory" class="tsd-kind-icon">pk<wbr>Factory</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#poolsize" class="tsd-kind-icon">pool<wbr>Size</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#port" class="tsd-kind-icon">port</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#promiselibrary" class="tsd-kind-icon">promise<wbr>Library</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#promotebuffers" class="tsd-kind-icon">promote<wbr>Buffers</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#promotelongs" class="tsd-kind-icon">promote<wbr>Longs</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#promotevalues" class="tsd-kind-icon">promote<wbr>Values</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#raw" class="tsd-kind-icon">raw</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#readconcern" class="tsd-kind-icon">read<wbr>Concern</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#readpreference" class="tsd-kind-icon">read<wbr>Preference</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#readpreferencetags" class="tsd-kind-icon">read<wbr>Preference<wbr>Tags</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#reconnectinterval" class="tsd-kind-icon">reconnect<wbr>Interval</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#reconnecttries" class="tsd-kind-icon">reconnect<wbr>Tries</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#replicaset" class="tsd-kind-icon">replica<wbr>Set</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#secondaryacceptablelatencyms" class="tsd-kind-icon">secondary<wbr>Acceptable<wbr>LatencyMS</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#serializefunctions" class="tsd-kind-icon">serialize<wbr>Functions</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#sockettimeoutms" class="tsd-kind-icon">socket<wbr>TimeoutMS</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#ssl" class="tsd-kind-icon">ssl</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#sslca" class="tsd-kind-icon">sslCA</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#sslcrl" class="tsd-kind-icon">sslCRL</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#sslcert" class="tsd-kind-icon">ssl<wbr>Cert</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#sslkey" class="tsd-kind-icon">ssl<wbr>Key</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#sslpass" class="tsd-kind-icon">ssl<wbr>Pass</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#sslvalidate" class="tsd-kind-icon">ssl<wbr>Validate</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="mongoconnectionoptions.html#subscribers" class="tsd-kind-icon">subscribers</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-inherited"><a href="mongoconnectionoptions.html#synchronize" class="tsd-kind-icon">synchronize</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface tsd-is-overwrite"><a href="mongoconnectionoptions.html#type" class="tsd-kind-icon">type</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#url" class="tsd-kind-icon">url</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#usenewurlparser" class="tsd-kind-icon">use<wbr>New<wbr>Url<wbr>Parser</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#useunifiedtopology" class="tsd-kind-icon">use<wbr>Unified<wbr>Topology</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#username" class="tsd-kind-icon">username</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#validateoptions" class="tsd-kind-icon">validate<wbr>Options</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#w" class="tsd-kind-icon">w</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-interface"><a href="mongoconnectionoptions.html#wtimeout" class="tsd-kind-icon">wtimeout</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="acceptablelatencyms" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> acceptable<wbr>LatencyMS</h3>
+					<div class="tsd-signature tsd-kind-icon">acceptable<wbr>LatencyMS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L151">src/driver/mongodb/MongoConnectionOptions.ts:151</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Sets the range of servers to pick when using NEAREST (lowest ping ms + the latency fence, ex: range of 1 to (1 + 15) ms).
+							Default: 15</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="appname" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> appname</h3>
+					<div class="tsd-signature tsd-kind-icon">appname<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L278">src/driver/mongodb/MongoConnectionOptions.ts:278</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The name of the application that created this MongoClient instance. MongoDB 3.4 and newer will print this value in the server log upon establishing each connection. It is also recorded in the slow query log and profile collections</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="authmechanism" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> auth<wbr>Mechanism</h3>
+					<div class="tsd-signature tsd-kind-icon">auth<wbr>Mechanism<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L283">src/driver/mongodb/MongoConnectionOptions.ts:283</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Sets the authentication mechanism that MongoDB will use to authenticate the connection</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="authsource" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> auth<wbr>Source</h3>
+					<div class="tsd-signature tsd-kind-icon">auth<wbr>Source<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L167">src/driver/mongodb/MongoConnectionOptions.ts:167</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>If the database authentication is dependent on another databaseName.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="autoreconnect" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> auto<wbr>Reconnect</h3>
+					<div class="tsd-signature tsd-kind-icon">auto<wbr>Reconnect<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L94">src/driver/mongodb/MongoConnectionOptions.ts:94</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Reconnect on error. Default: true</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="auto_reconnect" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> auto_<wbr>reconnect</h3>
+					<div class="tsd-signature tsd-kind-icon">auto_<wbr>reconnect<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L308">src/driver/mongodb/MongoConnectionOptions.ts:308</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Enable auto reconnecting for single server instances. Default: true</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="buffermaxentries" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> buffer<wbr>Max<wbr>Entries</h3>
+					<div class="tsd-signature tsd-kind-icon">buffer<wbr>Max<wbr>Entries<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L228">src/driver/mongodb/MongoConnectionOptions.ts:228</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Sets a cap on how many operations the driver will buffer up before giving up on getting a working connection,
+							default is -1 which is unlimited.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="cache" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> cache</h3>
+					<div class="tsd-signature tsd-kind-icon">cache<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="baseconnectionoptions.html">BaseConnectionOptions</a>.<a href="baseconnectionoptions.html#cache">cache</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/connection/BaseConnectionOptions.ts#L116">src/connection/BaseConnectionOptions.ts:116</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Allows to setup cache options.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="checkserveridentity" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> check<wbr>Server<wbr>Identity</h3>
+					<div class="tsd-signature tsd-kind-icon">check<wbr>Server<wbr>Identity<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L268">src/driver/mongodb/MongoConnectionOptions.ts:268</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Ensure we check server identify during SSL, set to false to disable checking. Only works for Node 0.12.x or higher. You can pass in a boolean or your own checkServerIdentity override function
+							Default: true</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="cli" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> cli</h3>
+					<div class="tsd-signature tsd-kind-icon">cli<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="baseconnectionoptions.html">BaseConnectionOptions</a>.<a href="baseconnectionoptions.html#cli">cli</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/connection/BaseConnectionOptions.ts#L159">src/connection/BaseConnectionOptions.ts:159</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>CLI settings.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="compression" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> compression</h3>
+					<div class="tsd-signature tsd-kind-icon">compression<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L288">src/driver/mongodb/MongoConnectionOptions.ts:288</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Type of compression to use: snappy or zlib</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="connecttimeoutms" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> connect<wbr>TimeoutMS</h3>
+					<div class="tsd-signature tsd-kind-icon">connect<wbr>TimeoutMS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L109">src/driver/mongodb/MongoConnectionOptions.ts:109</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>TCP Connection timeout setting. Default: 30000</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="connectwithnoprimary" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> connect<wbr>With<wbr>NoPrimary</h3>
+					<div class="tsd-signature tsd-kind-icon">connect<wbr>With<wbr>NoPrimary<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L162">src/driver/mongodb/MongoConnectionOptions.ts:162</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Sets if the driver should connect even if no primary is available. Default: false</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="database" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> database</h3>
+					<div class="tsd-signature tsd-kind-icon">database<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L43">src/driver/mongodb/MongoConnectionOptions.ts:43</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Database name to connect to.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="domainsenabled" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> domains<wbr>Enabled</h3>
+					<div class="tsd-signature tsd-kind-icon">domains<wbr>Enabled<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L222">src/driver/mongodb/MongoConnectionOptions.ts:222</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Enable the wrapping of the callback in the current domain, disabled by default to avoid perf hit. Default: false</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="dropschema" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> drop<wbr>Schema</h3>
+					<div class="tsd-signature tsd-kind-icon">drop<wbr>Schema<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="baseconnectionoptions.html">BaseConnectionOptions</a>.<a href="baseconnectionoptions.html#dropschema">dropSchema</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/connection/BaseConnectionOptions.ts#L99">src/connection/BaseConnectionOptions.ts:99</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Drops the schema each time connection is being established.
+								Be careful with this option and don&#39;t use this in production - otherwise you&#39;ll lose all production data.
+							This option is useful during debug and development.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="entities" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> entities</h3>
+					<div class="tsd-signature tsd-kind-icon">entities<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><a href="../classes/entityschema.html" class="tsd-signature-type">EntitySchema</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="baseconnectionoptions.html">BaseConnectionOptions</a>.<a href="baseconnectionoptions.html#entities">entities</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/connection/BaseConnectionOptions.ts#L30">src/connection/BaseConnectionOptions.ts:30</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Entities to be loaded for this connection.
+								Accepts both entity classes and directories where from entities need to be loaded.
+							Directories support glob patterns.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="entityprefix" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> entity<wbr>Prefix</h3>
+					<div class="tsd-signature tsd-kind-icon">entity<wbr>Prefix<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="baseconnectionoptions.html">BaseConnectionOptions</a>.<a href="baseconnectionoptions.html#entityprefix">entityPrefix</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/connection/BaseConnectionOptions.ts#L104">src/connection/BaseConnectionOptions.ts:104</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Prefix to use on all tables (collections) of this connection in the database.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="extra" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> extra</h3>
+					<div class="tsd-signature tsd-kind-icon">extra<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="baseconnectionoptions.html">BaseConnectionOptions</a>.<a href="baseconnectionoptions.html#extra">extra</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/connection/BaseConnectionOptions.ts#L111">src/connection/BaseConnectionOptions.ts:111</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Extra connection options to be passed to the underlying driver.</p>
+						</div>
+						<p>todo: deprecate this and move all database-specific types into hts own connection options object.</p>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="family" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> family</h3>
+					<div class="tsd-signature tsd-kind-icon">family<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L115">src/driver/mongodb/MongoConnectionOptions.ts:115</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Version of IP stack. Can be 4, 6.
+							If undefined, will attempt to connect with IPv6, and will fall back to IPv4 on failure</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="forceserverobjectid" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> force<wbr>Server<wbr>Object<wbr>Id</h3>
+					<div class="tsd-signature tsd-kind-icon">force<wbr>Server<wbr>Object<wbr>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L187">src/driver/mongodb/MongoConnectionOptions.ts:187</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Force server to assign _id values instead of driver. Default: false</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="fsync" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> fsync</h3>
+					<div class="tsd-signature tsd-kind-icon">fsync<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L293">src/driver/mongodb/MongoConnectionOptions.ts:293</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Specify a file sync write concern. Default: false</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="ha" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> ha</h3>
+					<div class="tsd-signature tsd-kind-icon">ha<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L135">src/driver/mongodb/MongoConnectionOptions.ts:135</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Control if high availability monitoring runs for Replicaset or Mongos proxies. Default true</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="hainterval" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> ha<wbr>Interval</h3>
+					<div class="tsd-signature tsd-kind-icon">ha<wbr>Interval<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L140">src/driver/mongodb/MongoConnectionOptions.ts:140</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The High availability period for replicaset inquiry. Default: 10000</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="host" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> host</h3>
+					<div class="tsd-signature tsd-kind-icon">host<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L23">src/driver/mongodb/MongoConnectionOptions.ts:23</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Database host.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="ignoreundefined" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> ignore<wbr>Undefined</h3>
+					<div class="tsd-signature tsd-kind-icon">ignore<wbr>Undefined<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L197">src/driver/mongodb/MongoConnectionOptions.ts:197</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Specify if the BSON serializer should ignore undefined fields. Default: false</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="j" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> j</h3>
+					<div class="tsd-signature tsd-kind-icon">j<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L182">src/driver/mongodb/MongoConnectionOptions.ts:182</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Specify a journal write concern. Default: false</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="keepalive" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> keep<wbr>Alive</h3>
+					<div class="tsd-signature tsd-kind-icon">keep<wbr>Alive<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L104">src/driver/mongodb/MongoConnectionOptions.ts:104</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The number of milliseconds to wait before initiating keepAlive on the TCP socket. Default: 30000</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="logger" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> logger</h3>
+					<div class="tsd-signature tsd-kind-icon">logger<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"advanced-console"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"simple-console"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"file"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"debug"</span><span class="tsd-signature-symbol"> | </span><a href="logger.html" class="tsd-signature-type">Logger</a></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="baseconnectionoptions.html">BaseConnectionOptions</a>.<a href="baseconnectionoptions.html#logger">logger</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/connection/BaseConnectionOptions.ts#L70">src/connection/BaseConnectionOptions.ts:70</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Logger instance used to log queries and events in the ORM.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="loggerlevel" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> logger<wbr>Level</h3>
+					<div class="tsd-signature tsd-kind-icon">logger<wbr>Level<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"error"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"warn"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"info"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"debug"</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L259">src/driver/mongodb/MongoConnectionOptions.ts:259</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Specify the log level used by the driver logger (error/warn/info/debug).</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="logging" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> logging</h3>
+					<div class="tsd-signature tsd-kind-icon">logging<span class="tsd-signature-symbol">:</span> <a href="../globals.html#loggeroptions" class="tsd-signature-type">LoggerOptions</a></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="baseconnectionoptions.html">BaseConnectionOptions</a>.<a href="baseconnectionoptions.html#logging">logging</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/connection/BaseConnectionOptions.ts#L65">src/connection/BaseConnectionOptions.ts:65</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Logging options.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="maxqueryexecutiontime" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> max<wbr>Query<wbr>Execution<wbr>Time</h3>
+					<div class="tsd-signature tsd-kind-icon">max<wbr>Query<wbr>Execution<wbr>Time<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="baseconnectionoptions.html">BaseConnectionOptions</a>.<a href="baseconnectionoptions.html#maxqueryexecutiontime">maxQueryExecutionTime</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/connection/BaseConnectionOptions.ts#L75">src/connection/BaseConnectionOptions.ts:75</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Maximum number of milliseconds query should be executed before logger log a warning.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="maxstalenessseconds" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> max<wbr>Staleness<wbr>Seconds</h3>
+					<div class="tsd-signature tsd-kind-icon">max<wbr>Staleness<wbr>Seconds<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L254">src/driver/mongodb/MongoConnectionOptions.ts:254</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Specify a maxStalenessSeconds value for secondary reads, minimum is 90 seconds</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="migrations" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> migrations</h3>
+					<div class="tsd-signature tsd-kind-icon">migrations<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="baseconnectionoptions.html">BaseConnectionOptions</a>.<a href="baseconnectionoptions.html#migrations">migrations</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/connection/BaseConnectionOptions.ts#L44">src/connection/BaseConnectionOptions.ts:44</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Migrations to be loaded for this connection.
+								Accepts both migration classes and directories where from migrations need to be loaded.
+							Directories support glob patterns.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="migrationsrun" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> migrations<wbr>Run</h3>
+					<div class="tsd-signature tsd-kind-icon">migrations<wbr>Run<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="baseconnectionoptions.html">BaseConnectionOptions</a>.<a href="baseconnectionoptions.html#migrationsrun">migrationsRun</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/connection/BaseConnectionOptions.ts#L92">src/connection/BaseConnectionOptions.ts:92</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Indicates if migrations should be auto run on every application launch.
+							Alternative to it, you can use CLI and run migrations:run command.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="migrationstablename" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> migrations<wbr>Table<wbr>Name</h3>
+					<div class="tsd-signature tsd-kind-icon">migrations<wbr>Table<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="baseconnectionoptions.html">BaseConnectionOptions</a>.<a href="baseconnectionoptions.html#migrationstablename">migrationsTableName</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/connection/BaseConnectionOptions.ts#L50">src/connection/BaseConnectionOptions.ts:50</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Migrations table name, in case of different name from &quot;migrations&quot;.
+							Accepts single string name.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="migrationstransactionmode" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> migrations<wbr>Transaction<wbr>Mode</h3>
+					<div class="tsd-signature tsd-kind-icon">migrations<wbr>Transaction<wbr>Mode<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"all"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"none"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"each"</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="baseconnectionoptions.html">BaseConnectionOptions</a>.<a href="baseconnectionoptions.html#migrationstransactionmode">migrationsTransactionMode</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/connection/BaseConnectionOptions.ts#L55">src/connection/BaseConnectionOptions.ts:55</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Transaction mode for migrations to run in</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="minsize" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> min<wbr>Size</h3>
+					<div class="tsd-signature tsd-kind-icon">min<wbr>Size<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L318">src/driver/mongodb/MongoConnectionOptions.ts:318</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>If present, the connection pool will be initialized with minSize connections, and will never dip below minSize connections</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="monitorcommands" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> monitor<wbr>Commands</h3>
+					<div class="tsd-signature tsd-kind-icon">monitor<wbr>Commands<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L313">src/driver/mongodb/MongoConnectionOptions.ts:313</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Enable command monitoring for this client. Default: false</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="name" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> name</h3>
+					<div class="tsd-signature tsd-kind-icon">name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="baseconnectionoptions.html">BaseConnectionOptions</a>.<a href="baseconnectionoptions.html#name">name</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/connection/BaseConnectionOptions.ts#L23">src/connection/BaseConnectionOptions.ts:23</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Connection name. If connection name is not given then it will be called &quot;default&quot;.
+							Different connections must have different names.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="namingstrategy" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> naming<wbr>Strategy</h3>
+					<div class="tsd-signature tsd-kind-icon">naming<wbr>Strategy<span class="tsd-signature-symbol">:</span> <a href="namingstrategyinterface.html" class="tsd-signature-type">NamingStrategyInterface</a></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="baseconnectionoptions.html">BaseConnectionOptions</a>.<a href="baseconnectionoptions.html#namingstrategy">namingStrategy</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/connection/BaseConnectionOptions.ts#L60">src/connection/BaseConnectionOptions.ts:60</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Naming strategy to be used to name tables and columns in the database.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="nodelay" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> no<wbr>Delay</h3>
+					<div class="tsd-signature tsd-kind-icon">no<wbr>Delay<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L99">src/driver/mongodb/MongoConnectionOptions.ts:99</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>TCP Socket NoDelay option. Default: true</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="numberofretries" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> number<wbr>OfRetries</h3>
+					<div class="tsd-signature tsd-kind-icon">number<wbr>OfRetries<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L303">src/driver/mongodb/MongoConnectionOptions.ts:303</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The number of retries for a tailable cursor. Default: 5</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="password" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> password</h3>
+					<div class="tsd-signature tsd-kind-icon">password<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L38">src/driver/mongodb/MongoConnectionOptions.ts:38</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Database password.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="pkfactory" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> pk<wbr>Factory</h3>
+					<div class="tsd-signature tsd-kind-icon">pk<wbr>Factory<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L239">src/driver/mongodb/MongoConnectionOptions.ts:239</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A primary key factory object for generation of custom _id keys.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="poolsize" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> pool<wbr>Size</h3>
+					<div class="tsd-signature tsd-kind-icon">pool<wbr>Size<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L48">src/driver/mongodb/MongoConnectionOptions.ts:48</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Set the maximum poolSize for each individual server or proxy connection.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="port" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> port</h3>
+					<div class="tsd-signature tsd-kind-icon">port<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L28">src/driver/mongodb/MongoConnectionOptions.ts:28</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Database host port.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="promiselibrary" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> promise<wbr>Library</h3>
+					<div class="tsd-signature tsd-kind-icon">promise<wbr>Library<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L244">src/driver/mongodb/MongoConnectionOptions.ts:244</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>A Promise library class the application wishes to use such as Bluebird, must be ES6 compatible.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="promotebuffers" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> promote<wbr>Buffers</h3>
+					<div class="tsd-signature tsd-kind-icon">promote<wbr>Buffers<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L212">src/driver/mongodb/MongoConnectionOptions.ts:212</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Promotes Binary BSON values to native Node Buffers. Default: false</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="promotelongs" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> promote<wbr>Longs</h3>
+					<div class="tsd-signature tsd-kind-icon">promote<wbr>Longs<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L207">src/driver/mongodb/MongoConnectionOptions.ts:207</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Promotes Long values to number if they fit inside the 53 bits resolution. Default: true</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="promotevalues" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> promote<wbr>Values</h3>
+					<div class="tsd-signature tsd-kind-icon">promote<wbr>Values<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L217">src/driver/mongodb/MongoConnectionOptions.ts:217</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Promotes BSON values to native types where possible, set to false to only receive wrapper types. Default: true</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="raw" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> raw</h3>
+					<div class="tsd-signature tsd-kind-icon">raw<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L202">src/driver/mongodb/MongoConnectionOptions.ts:202</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Return document results as raw BSON buffers. Default: false</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="readconcern" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> read<wbr>Concern</h3>
+					<div class="tsd-signature tsd-kind-icon">read<wbr>Concern<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L249">src/driver/mongodb/MongoConnectionOptions.ts:249</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Specify a read concern for the collection. (only MongoDB 3.2 or higher supported).</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="readpreference" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> read<wbr>Preference</h3>
+					<div class="tsd-signature tsd-kind-icon">read<wbr>Preference<span class="tsd-signature-symbol">:</span> <a href="../classes/readpreference.html" class="tsd-signature-type">ReadPreference</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L234">src/driver/mongodb/MongoConnectionOptions.ts:234</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The preferred read preference (ReadPreference.PRIMARY, ReadPreference.PRIMARY_PREFERRED, ReadPreference.SECONDARY,
+							ReadPreference.SECONDARY_PREFERRED, ReadPreference.NEAREST).</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="readpreferencetags" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> read<wbr>Preference<wbr>Tags</h3>
+					<div class="tsd-signature tsd-kind-icon">read<wbr>Preference<wbr>Tags<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L298">src/driver/mongodb/MongoConnectionOptions.ts:298</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Read preference tags</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="reconnectinterval" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> reconnect<wbr>Interval</h3>
+					<div class="tsd-signature tsd-kind-icon">reconnect<wbr>Interval<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L130">src/driver/mongodb/MongoConnectionOptions.ts:130</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Server will wait #milliseconds between retries. Default 1000</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="reconnecttries" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> reconnect<wbr>Tries</h3>
+					<div class="tsd-signature tsd-kind-icon">reconnect<wbr>Tries<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L125">src/driver/mongodb/MongoConnectionOptions.ts:125</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Server attempt to reconnect #times. Default 30</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="replicaset" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> replica<wbr>Set</h3>
+					<div class="tsd-signature tsd-kind-icon">replica<wbr>Set<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L145">src/driver/mongodb/MongoConnectionOptions.ts:145</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The name of the replicaset to connect to</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="secondaryacceptablelatencyms" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> secondary<wbr>Acceptable<wbr>LatencyMS</h3>
+					<div class="tsd-signature tsd-kind-icon">secondary<wbr>Acceptable<wbr>LatencyMS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L157">src/driver/mongodb/MongoConnectionOptions.ts:157</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Sets the range of servers to pick when using NEAREST (lowest ping ms + the latency fence, ex: range of 1 to (1 + 15) ms).
+							Default: 15</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="serializefunctions" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> serialize<wbr>Functions</h3>
+					<div class="tsd-signature tsd-kind-icon">serialize<wbr>Functions<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L192">src/driver/mongodb/MongoConnectionOptions.ts:192</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Serialize functions on any object. Default: false</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="sockettimeoutms" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> socket<wbr>TimeoutMS</h3>
+					<div class="tsd-signature tsd-kind-icon">socket<wbr>TimeoutMS<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L120">src/driver/mongodb/MongoConnectionOptions.ts:120</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>TCP Socket timeout setting. Default: 360000</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="ssl" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> ssl</h3>
+					<div class="tsd-signature tsd-kind-icon">ssl<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L53">src/driver/mongodb/MongoConnectionOptions.ts:53</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Use ssl connection (needs to have a mongod server with ssl support). Default: false</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="sslca" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> sslCA</h3>
+					<div class="tsd-signature tsd-kind-icon">sslCA<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Buffer</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L65">src/driver/mongodb/MongoConnectionOptions.ts:65</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Array of valid certificates either as Buffers or Strings
+							(needs to have a mongod server with ssl support, 2.4 or higher).</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="sslcrl" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> sslCRL</h3>
+					<div class="tsd-signature tsd-kind-icon">sslCRL<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Buffer</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L89">src/driver/mongodb/MongoConnectionOptions.ts:89</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>SSL Certificate revocation list binary buffer
+							(needs to have a mongod server with ssl support, 2.4 or higher)</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="sslcert" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> ssl<wbr>Cert</h3>
+					<div class="tsd-signature tsd-kind-icon">ssl<wbr>Cert<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Buffer</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L71">src/driver/mongodb/MongoConnectionOptions.ts:71</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>String or buffer containing the certificate we wish to present
+							(needs to have a mongod server with ssl support, 2.4 or higher)</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="sslkey" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> ssl<wbr>Key</h3>
+					<div class="tsd-signature tsd-kind-icon">ssl<wbr>Key<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L77">src/driver/mongodb/MongoConnectionOptions.ts:77</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>String or buffer containing the certificate private key we wish to present
+							(needs to have a mongod server with ssl support, 2.4 or higher)</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="sslpass" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> ssl<wbr>Pass</h3>
+					<div class="tsd-signature tsd-kind-icon">ssl<wbr>Pass<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Buffer</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L83">src/driver/mongodb/MongoConnectionOptions.ts:83</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>String or buffer containing the certificate password
+							(needs to have a mongod server with ssl support, 2.4 or higher)</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="sslvalidate" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> ssl<wbr>Validate</h3>
+					<div class="tsd-signature tsd-kind-icon">ssl<wbr>Validate<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L59">src/driver/mongodb/MongoConnectionOptions.ts:59</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Validate mongod server certificate against ca (needs to have a mongod server with ssl support, 2.4 or higher).
+							Default: true</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="subscribers" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> subscribers</h3>
+					<div class="tsd-signature tsd-kind-icon">subscribers<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="baseconnectionoptions.html">BaseConnectionOptions</a>.<a href="baseconnectionoptions.html#subscribers">subscribers</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/connection/BaseConnectionOptions.ts#L37">src/connection/BaseConnectionOptions.ts:37</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Subscribers to be loaded for this connection.
+								Accepts both subscriber classes and directories where from subscribers need to be loaded.
+							Directories support glob patterns.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+					<a name="synchronize" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> synchronize</h3>
+					<div class="tsd-signature tsd-kind-icon">synchronize<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<p>Inherited from <a href="baseconnectionoptions.html">BaseConnectionOptions</a>.<a href="baseconnectionoptions.html#synchronize">synchronize</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/connection/BaseConnectionOptions.ts#L86">src/connection/BaseConnectionOptions.ts:86</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Indicates if database schema should be auto created on every application launch.
+								Be careful with this option and don&#39;t use this in production - otherwise you can lose production data.
+								This option is useful during debug and development.
+							Alternative to it, you can use CLI and run schema:sync command.</p>
+						</div>
+						<p>Note that for MongoDB database it does not create schema, because MongoDB is schemaless.
+						Instead, it syncs just by creating indices.</p>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface tsd-is-overwrite">
+					<a name="type" class="tsd-anchor"></a>
+					<h3>type</h3>
+					<div class="tsd-signature tsd-kind-icon">type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"mongodb"</span></div>
+					<aside class="tsd-sources">
+						<p>Overrides <a href="baseconnectionoptions.html">BaseConnectionOptions</a>.<a href="baseconnectionoptions.html#type">type</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L13">src/driver/mongodb/MongoConnectionOptions.ts:13</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Database type.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="url" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> url</h3>
+					<div class="tsd-signature tsd-kind-icon">url<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L18">src/driver/mongodb/MongoConnectionOptions.ts:18</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Connection url where perform connection to.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="usenewurlparser" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> use<wbr>New<wbr>Url<wbr>Parser</h3>
+					<div class="tsd-signature tsd-kind-icon">use<wbr>New<wbr>Url<wbr>Parser<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L323">src/driver/mongodb/MongoConnectionOptions.ts:323</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Determines whether or not to use the new url parser. Default: false</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="useunifiedtopology" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> use<wbr>Unified<wbr>Topology</h3>
+					<div class="tsd-signature tsd-kind-icon">use<wbr>Unified<wbr>Topology<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L329">src/driver/mongodb/MongoConnectionOptions.ts:329</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Determines whether or not to use the new Server Discovery and Monitoring engine. Default: false
+							<a href="https://github.com/mongodb/node-mongodb-native/releases/tag/v3.2.1">https://github.com/mongodb/node-mongodb-native/releases/tag/v3.2.1</a></p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="username" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> username</h3>
+					<div class="tsd-signature tsd-kind-icon">username<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L33">src/driver/mongodb/MongoConnectionOptions.ts:33</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Database username.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="validateoptions" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> validate<wbr>Options</h3>
+					<div class="tsd-signature tsd-kind-icon">validate<wbr>Options<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L273">src/driver/mongodb/MongoConnectionOptions.ts:273</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Validate MongoClient passed in options for correctness. Default: false</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="w" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> w</h3>
+					<div class="tsd-signature tsd-kind-icon">w<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L172">src/driver/mongodb/MongoConnectionOptions.ts:172</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The write concern.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-interface">
+					<a name="wtimeout" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> wtimeout</h3>
+					<div class="tsd-signature tsd-kind-icon">wtimeout<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/mongodb/MongoConnectionOptions.ts#L177">src/driver/mongodb/MongoConnectionOptions.ts:177</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>The write concern timeout value.</p>
+						</div>
+					</div>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-interface">
+						<a href="mongoconnectionoptions.html" class="tsd-kind-icon">Mongo<wbr>Connection<wbr>Options</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#acceptablelatencyms" class="tsd-kind-icon">acceptable<wbr>LatencyMS</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#appname" class="tsd-kind-icon">appname</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#authmechanism" class="tsd-kind-icon">auth<wbr>Mechanism</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#authsource" class="tsd-kind-icon">auth<wbr>Source</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#autoreconnect" class="tsd-kind-icon">auto<wbr>Reconnect</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#auto_reconnect" class="tsd-kind-icon">auto_<wbr>reconnect</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#buffermaxentries" class="tsd-kind-icon">buffer<wbr>Max<wbr>Entries</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="mongoconnectionoptions.html#cache" class="tsd-kind-icon">cache</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#checkserveridentity" class="tsd-kind-icon">check<wbr>Server<wbr>Identity</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="mongoconnectionoptions.html#cli" class="tsd-kind-icon">cli</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#compression" class="tsd-kind-icon">compression</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#connecttimeoutms" class="tsd-kind-icon">connect<wbr>TimeoutMS</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#connectwithnoprimary" class="tsd-kind-icon">connect<wbr>With<wbr>NoPrimary</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#database" class="tsd-kind-icon">database</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#domainsenabled" class="tsd-kind-icon">domains<wbr>Enabled</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="mongoconnectionoptions.html#dropschema" class="tsd-kind-icon">drop<wbr>Schema</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="mongoconnectionoptions.html#entities" class="tsd-kind-icon">entities</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="mongoconnectionoptions.html#entityprefix" class="tsd-kind-icon">entity<wbr>Prefix</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="mongoconnectionoptions.html#extra" class="tsd-kind-icon">extra</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#family" class="tsd-kind-icon">family</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#forceserverobjectid" class="tsd-kind-icon">force<wbr>Server<wbr>Object<wbr>Id</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#fsync" class="tsd-kind-icon">fsync</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#ha" class="tsd-kind-icon">ha</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#hainterval" class="tsd-kind-icon">ha<wbr>Interval</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#host" class="tsd-kind-icon">host</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#ignoreundefined" class="tsd-kind-icon">ignore<wbr>Undefined</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#j" class="tsd-kind-icon">j</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#keepalive" class="tsd-kind-icon">keep<wbr>Alive</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="mongoconnectionoptions.html#logger" class="tsd-kind-icon">logger</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#loggerlevel" class="tsd-kind-icon">logger<wbr>Level</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="mongoconnectionoptions.html#logging" class="tsd-kind-icon">logging</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="mongoconnectionoptions.html#maxqueryexecutiontime" class="tsd-kind-icon">max<wbr>Query<wbr>Execution<wbr>Time</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#maxstalenessseconds" class="tsd-kind-icon">max<wbr>Staleness<wbr>Seconds</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="mongoconnectionoptions.html#migrations" class="tsd-kind-icon">migrations</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="mongoconnectionoptions.html#migrationsrun" class="tsd-kind-icon">migrations<wbr>Run</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="mongoconnectionoptions.html#migrationstablename" class="tsd-kind-icon">migrations<wbr>Table<wbr>Name</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="mongoconnectionoptions.html#migrationstransactionmode" class="tsd-kind-icon">migrations<wbr>Transaction<wbr>Mode</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#minsize" class="tsd-kind-icon">min<wbr>Size</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#monitorcommands" class="tsd-kind-icon">monitor<wbr>Commands</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="mongoconnectionoptions.html#name" class="tsd-kind-icon">name</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="mongoconnectionoptions.html#namingstrategy" class="tsd-kind-icon">naming<wbr>Strategy</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#nodelay" class="tsd-kind-icon">no<wbr>Delay</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#numberofretries" class="tsd-kind-icon">number<wbr>OfRetries</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#password" class="tsd-kind-icon">password</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#pkfactory" class="tsd-kind-icon">pk<wbr>Factory</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#poolsize" class="tsd-kind-icon">pool<wbr>Size</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#port" class="tsd-kind-icon">port</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#promiselibrary" class="tsd-kind-icon">promise<wbr>Library</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#promotebuffers" class="tsd-kind-icon">promote<wbr>Buffers</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#promotelongs" class="tsd-kind-icon">promote<wbr>Longs</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#promotevalues" class="tsd-kind-icon">promote<wbr>Values</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#raw" class="tsd-kind-icon">raw</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#readconcern" class="tsd-kind-icon">read<wbr>Concern</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#readpreference" class="tsd-kind-icon">read<wbr>Preference</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#readpreferencetags" class="tsd-kind-icon">read<wbr>Preference<wbr>Tags</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#reconnectinterval" class="tsd-kind-icon">reconnect<wbr>Interval</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#reconnecttries" class="tsd-kind-icon">reconnect<wbr>Tries</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#replicaset" class="tsd-kind-icon">replica<wbr>Set</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#secondaryacceptablelatencyms" class="tsd-kind-icon">secondary<wbr>Acceptable<wbr>LatencyMS</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#serializefunctions" class="tsd-kind-icon">serialize<wbr>Functions</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#sockettimeoutms" class="tsd-kind-icon">socket<wbr>TimeoutMS</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#ssl" class="tsd-kind-icon">ssl</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#sslca" class="tsd-kind-icon">sslCA</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#sslcrl" class="tsd-kind-icon">sslCRL</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#sslcert" class="tsd-kind-icon">ssl<wbr>Cert</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#sslkey" class="tsd-kind-icon">ssl<wbr>Key</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#sslpass" class="tsd-kind-icon">ssl<wbr>Pass</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#sslvalidate" class="tsd-kind-icon">ssl<wbr>Validate</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="mongoconnectionoptions.html#subscribers" class="tsd-kind-icon">subscribers</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-inherited">
+								<a href="mongoconnectionoptions.html#synchronize" class="tsd-kind-icon">synchronize</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface tsd-is-overwrite">
+								<a href="mongoconnectionoptions.html#type" class="tsd-kind-icon">type</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#url" class="tsd-kind-icon">url</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#usenewurlparser" class="tsd-kind-icon">use<wbr>New<wbr>Url<wbr>Parser</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#useunifiedtopology" class="tsd-kind-icon">use<wbr>Unified<wbr>Topology</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#username" class="tsd-kind-icon">username</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#validateoptions" class="tsd-kind-icon">validate<wbr>Options</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#w" class="tsd-kind-icon">w</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-interface">
+								<a href="mongoconnectionoptions.html#wtimeout" class="tsd-kind-icon">wtimeout</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

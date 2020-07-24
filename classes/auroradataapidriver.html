@@ -1,0 +1,2250 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>AuroraDataApiDriver | typeorm</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">typeorm</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="auroradataapidriver.html">AuroraDataApiDriver</a>
+				</li>
+			</ul>
+			<h1>Class AuroraDataApiDriver</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Organizes communication with MySQL DBMS.</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">AuroraDataApiDriver</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel">
+				<h3>Implements</h3>
+				<ul class="tsd-hierarchy">
+					<li><a href="../interfaces/driver.html" class="tsd-signature-type">Driver</a></li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="auroradataapidriver.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="auroradataapidriver.html#dataapidriver" class="tsd-kind-icon">Data<wbr>Api<wbr>Driver</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="auroradataapidriver.html#client" class="tsd-kind-icon">client</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="auroradataapidriver.html#connection" class="tsd-kind-icon">connection</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="auroradataapidriver.html#database" class="tsd-kind-icon">database</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="auroradataapidriver.html#isreplicated" class="tsd-kind-icon">is<wbr>Replicated</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="auroradataapidriver.html#maxaliaslength" class="tsd-kind-icon">max<wbr>Alias<wbr>Length</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="auroradataapidriver.html#options" class="tsd-kind-icon">options</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="auroradataapidriver.html#pool" class="tsd-kind-icon">pool</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="auroradataapidriver.html#poolcluster" class="tsd-kind-icon">pool<wbr>Cluster</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="auroradataapidriver.html#spatialtypes" class="tsd-kind-icon">spatial<wbr>Types</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="auroradataapidriver.html#supporteddatatypes" class="tsd-kind-icon">supported<wbr>Data<wbr>Types</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="auroradataapidriver.html#treesupport" class="tsd-kind-icon">tree<wbr>Support</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="auroradataapidriver.html#unsignedandzerofilltypes" class="tsd-kind-icon">unsigned<wbr>And<wbr>Zerofill<wbr>Types</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="auroradataapidriver.html#withlengthcolumntypes" class="tsd-kind-icon">with<wbr>Length<wbr>Column<wbr>Types</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="auroradataapidriver.html#withprecisioncolumntypes" class="tsd-kind-icon">with<wbr>Precision<wbr>Column<wbr>Types</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="auroradataapidriver.html#withscalecolumntypes" class="tsd-kind-icon">with<wbr>Scale<wbr>Column<wbr>Types</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="auroradataapidriver.html#withwidthcolumntypes" class="tsd-kind-icon">with<wbr>Width<wbr>Column<wbr>Types</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#afterconnect" class="tsd-kind-icon">after<wbr>Connect</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#buildtablename" class="tsd-kind-icon">build<wbr>Table<wbr>Name</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="auroradataapidriver.html#comparedefaultvalues" class="tsd-kind-icon">compare<wbr>Default<wbr>Values</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#connect" class="tsd-kind-icon">connect</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="auroradataapidriver.html#createconnectionoptions" class="tsd-kind-icon">create<wbr>Connection<wbr>Options</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#createfulltype" class="tsd-kind-icon">create<wbr>Full<wbr>Type</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#creategeneratedmap" class="tsd-kind-icon">create<wbr>Generated<wbr>Map</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#createparameter" class="tsd-kind-icon">create<wbr>Parameter</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="auroradataapidriver.html#createpool" class="tsd-kind-icon">create<wbr>Pool</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#createqueryrunner" class="tsd-kind-icon">create<wbr>Query<wbr>Runner</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#createschemabuilder" class="tsd-kind-icon">create<wbr>Schema<wbr>Builder</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#disconnect" class="tsd-kind-icon">disconnect</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#escape" class="tsd-kind-icon">escape</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#escapequerywithparameters" class="tsd-kind-icon">escape<wbr>Query<wbr>With<wbr>Parameters</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#findchangedcolumns" class="tsd-kind-icon">find<wbr>Changed<wbr>Columns</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#getcolumnlength" class="tsd-kind-icon">get<wbr>Column<wbr>Length</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#isreturningsqlsupported" class="tsd-kind-icon">is<wbr>Returning<wbr>Sql<wbr>Supported</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#isuuidgenerationsupported" class="tsd-kind-icon">isUUIDGeneration<wbr>Supported</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="auroradataapidriver.html#loaddependencies" class="tsd-kind-icon">load<wbr>Dependencies</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#normalizedefault" class="tsd-kind-icon">normalize<wbr>Default</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#normalizeisunique" class="tsd-kind-icon">normalize<wbr>IsUnique</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#normalizetype" class="tsd-kind-icon">normalize<wbr>Type</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#obtainmasterconnection" class="tsd-kind-icon">obtain<wbr>Master<wbr>Connection</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#obtainslaveconnection" class="tsd-kind-icon">obtain<wbr>Slave<wbr>Connection</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="auroradataapidriver.html#preparedbconnection" class="tsd-kind-icon">prepare<wbr>DbConnection</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#preparehydratedvalue" class="tsd-kind-icon">prepare<wbr>Hydrated<wbr>Value</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="auroradataapidriver.html#preparepersistentvalue" class="tsd-kind-icon">prepare<wbr>Persistent<wbr>Value</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Object literals</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-object-literal tsd-parent-kind-class"><a href="auroradataapidriver.html#datatypedefaults" class="tsd-kind-icon">data<wbr>Type<wbr>Defaults</a></li>
+								<li class="tsd-kind-object-literal tsd-parent-kind-class"><a href="auroradataapidriver.html#mappeddatatypes" class="tsd-kind-icon">mapped<wbr>Data<wbr>Types</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Aurora<wbr>Data<wbr>Api<wbr>Driver<span class="tsd-signature-symbol">(</span>connection<span class="tsd-signature-symbol">: </span><a href="connection.html" class="tsd-signature-type">Connection</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="auroradataapidriver.html" class="tsd-signature-type">AuroraDataApiDriver</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L290">src/driver/aurora-data-api/AuroraDataApiDriver.ts:290</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>connection: <a href="connection.html" class="tsd-signature-type">Connection</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="auroradataapidriver.html" class="tsd-signature-type">AuroraDataApiDriver</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="dataapidriver" class="tsd-anchor"></a>
+					<h3>Data<wbr>Api<wbr>Driver</h3>
+					<div class="tsd-signature tsd-kind-icon">Data<wbr>Api<wbr>Driver<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L33">src/driver/aurora-data-api/AuroraDataApiDriver.ts:33</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Aurora Data API underlying library.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="client" class="tsd-anchor"></a>
+					<h3>client</h3>
+					<div class="tsd-signature tsd-kind-icon">client<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L35">src/driver/aurora-data-api/AuroraDataApiDriver.ts:35</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="connection" class="tsd-anchor"></a>
+					<h3>connection</h3>
+					<div class="tsd-signature tsd-kind-icon">connection<span class="tsd-signature-symbol">:</span> <a href="connection.html" class="tsd-signature-type">Connection</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L29">src/driver/aurora-data-api/AuroraDataApiDriver.ts:29</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="database" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagOptional">Optional</span> database</h3>
+					<div class="tsd-signature tsd-kind-icon">database<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#database">database</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L60">src/driver/aurora-data-api/AuroraDataApiDriver.ts:60</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Master database used to perform all write queries.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="isreplicated" class="tsd-anchor"></a>
+					<h3>is<wbr>Replicated</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Replicated<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;false</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#isreplicated">isReplicated</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L65">src/driver/aurora-data-api/AuroraDataApiDriver.ts:65</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Indicates if replication is enabled.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="maxaliaslength" class="tsd-anchor"></a>
+					<h3>max<wbr>Alias<wbr>Length</h3>
+					<div class="tsd-signature tsd-kind-icon">max<wbr>Alias<wbr>Length<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;63</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#maxaliaslength">maxAliasLength</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L290">src/driver/aurora-data-api/AuroraDataApiDriver.ts:290</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Max length allowed by MySQL for aliases.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>see</dt>
+							<dd><p><a href="https://dev.mysql.com/doc/refman/5.5/en/identifiers.html">https://dev.mysql.com/doc/refman/5.5/en/identifiers.html</a></p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="options" class="tsd-anchor"></a>
+					<h3>options</h3>
+					<div class="tsd-signature tsd-kind-icon">options<span class="tsd-signature-symbol">:</span> <a href="../interfaces/auroradataapiconnectionoptions.html" class="tsd-signature-type">AuroraDataApiConnectionOptions</a></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#options">options</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L55">src/driver/aurora-data-api/AuroraDataApiDriver.ts:55</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Connection options.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="pool" class="tsd-anchor"></a>
+					<h3>pool</h3>
+					<div class="tsd-signature tsd-kind-icon">pool<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L41">src/driver/aurora-data-api/AuroraDataApiDriver.ts:41</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Connection pool.
+							Used in non-replication mode.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="poolcluster" class="tsd-anchor"></a>
+					<h3>pool<wbr>Cluster</h3>
+					<div class="tsd-signature tsd-kind-icon">pool<wbr>Cluster<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L46">src/driver/aurora-data-api/AuroraDataApiDriver.ts:46</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Pool cluster used in replication mode.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="spatialtypes" class="tsd-anchor"></a>
+					<h3>spatial<wbr>Types</h3>
+					<div class="tsd-signature tsd-kind-icon">spatial<wbr>Types<span class="tsd-signature-symbol">:</span> <a href="../globals.html#columntype" class="tsd-signature-type">ColumnType</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[&quot;geometry&quot;,&quot;point&quot;,&quot;linestring&quot;,&quot;polygon&quot;,&quot;multipoint&quot;,&quot;multilinestring&quot;,&quot;multipolygon&quot;,&quot;geometrycollection&quot;]</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#spatialtypes">spatialTypes</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L137">src/driver/aurora-data-api/AuroraDataApiDriver.ts:137</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Gets list of spatial column data types.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="supporteddatatypes" class="tsd-anchor"></a>
+					<h3>supported<wbr>Data<wbr>Types</h3>
+					<div class="tsd-signature tsd-kind-icon">supported<wbr>Data<wbr>Types<span class="tsd-signature-symbol">:</span> <a href="../globals.html#columntype" class="tsd-signature-type">ColumnType</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[// numeric types&quot;bit&quot;,&quot;int&quot;,&quot;integer&quot;,          // synonym for int&quot;tinyint&quot;,&quot;smallint&quot;,&quot;mediumint&quot;,&quot;bigint&quot;,&quot;float&quot;,&quot;double&quot;,&quot;double precision&quot;, // synonym for double&quot;real&quot;,             // synonym for double&quot;decimal&quot;,&quot;dec&quot;,              // synonym for decimal&quot;numeric&quot;,          // synonym for decimal&quot;fixed&quot;,            // synonym for decimal&quot;bool&quot;,             // synonym for tinyint&quot;boolean&quot;,          // synonym for tinyint// date and time types&quot;date&quot;,&quot;datetime&quot;,&quot;timestamp&quot;,&quot;time&quot;,&quot;year&quot;,// string types&quot;char&quot;,&quot;nchar&quot;,            // synonym for national char&quot;national char&quot;,&quot;varchar&quot;,&quot;nvarchar&quot;,         // synonym for national varchar&quot;national varchar&quot;,&quot;blob&quot;,&quot;text&quot;,&quot;tinyblob&quot;,&quot;tinytext&quot;,&quot;mediumblob&quot;,&quot;mediumtext&quot;,&quot;longblob&quot;,&quot;longtext&quot;,&quot;enum&quot;,&quot;binary&quot;,&quot;varbinary&quot;,// json data type&quot;json&quot;,// spatial data types&quot;geometry&quot;,&quot;point&quot;,&quot;linestring&quot;,&quot;polygon&quot;,&quot;multipoint&quot;,&quot;multilinestring&quot;,&quot;multipolygon&quot;,&quot;geometrycollection&quot;]</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#supporteddatatypes">supportedDataTypes</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L78">src/driver/aurora-data-api/AuroraDataApiDriver.ts:78</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Gets list of supported column data types by a driver.</p>
+						</div>
+						<dl class="tsd-comment-tags">
+							<dt>see</dt>
+							<dd><p><a href="https://www.tutorialspoint.com/mysql/mysql-data-types.htm">https://www.tutorialspoint.com/mysql/mysql-data-types.htm</a></p>
+							</dd>
+							<dt>see</dt>
+							<dd><p><a href="https://dev.mysql.com/doc/refman/8.0/en/data-types.html">https://dev.mysql.com/doc/refman/8.0/en/data-types.html</a></p>
+							</dd>
+						</dl>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="treesupport" class="tsd-anchor"></a>
+					<h3>tree<wbr>Support</h3>
+					<div class="tsd-signature tsd-kind-icon">tree<wbr>Support<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;true</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#treesupport">treeSupport</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L70">src/driver/aurora-data-api/AuroraDataApiDriver.ts:70</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Indicates if tree tables are supported by this driver.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="unsignedandzerofilltypes" class="tsd-anchor"></a>
+					<h3>unsigned<wbr>And<wbr>Zerofill<wbr>Types</h3>
+					<div class="tsd-signature tsd-kind-icon">unsigned<wbr>And<wbr>Zerofill<wbr>Types<span class="tsd-signature-symbol">:</span> <a href="../globals.html#columntype" class="tsd-signature-type">ColumnType</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[&quot;int&quot;,&quot;integer&quot;,&quot;smallint&quot;,&quot;tinyint&quot;,&quot;mediumint&quot;,&quot;bigint&quot;,&quot;decimal&quot;,&quot;dec&quot;,&quot;numeric&quot;,&quot;fixed&quot;,&quot;float&quot;,&quot;double&quot;,&quot;double precision&quot;,&quot;real&quot;]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L206">src/driver/aurora-data-api/AuroraDataApiDriver.ts:206</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Gets list of column data types that supports UNSIGNED and ZEROFILL attributes.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="withlengthcolumntypes" class="tsd-anchor"></a>
+					<h3>with<wbr>Length<wbr>Column<wbr>Types</h3>
+					<div class="tsd-signature tsd-kind-icon">with<wbr>Length<wbr>Column<wbr>Types<span class="tsd-signature-symbol">:</span> <a href="../globals.html#columntype" class="tsd-signature-type">ColumnType</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[&quot;char&quot;,&quot;varchar&quot;,&quot;nvarchar&quot;,&quot;binary&quot;,&quot;varbinary&quot;]</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#withlengthcolumntypes">withLengthColumnTypes</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L151">src/driver/aurora-data-api/AuroraDataApiDriver.ts:151</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Gets list of column data types that support length by a driver.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="withprecisioncolumntypes" class="tsd-anchor"></a>
+					<h3>with<wbr>Precision<wbr>Column<wbr>Types</h3>
+					<div class="tsd-signature tsd-kind-icon">with<wbr>Precision<wbr>Column<wbr>Types<span class="tsd-signature-symbol">:</span> <a href="../globals.html#columntype" class="tsd-signature-type">ColumnType</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[&quot;decimal&quot;,&quot;dec&quot;,&quot;numeric&quot;,&quot;fixed&quot;,&quot;float&quot;,&quot;double&quot;,&quot;double precision&quot;,&quot;real&quot;,&quot;time&quot;,&quot;datetime&quot;,&quot;timestamp&quot;]</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#withprecisioncolumntypes">withPrecisionColumnTypes</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L175">src/driver/aurora-data-api/AuroraDataApiDriver.ts:175</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Gets list of column data types that support precision by a driver.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="withscalecolumntypes" class="tsd-anchor"></a>
+					<h3>with<wbr>Scale<wbr>Column<wbr>Types</h3>
+					<div class="tsd-signature tsd-kind-icon">with<wbr>Scale<wbr>Column<wbr>Types<span class="tsd-signature-symbol">:</span> <a href="../globals.html#columntype" class="tsd-signature-type">ColumnType</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[&quot;decimal&quot;,&quot;dec&quot;,&quot;numeric&quot;,&quot;fixed&quot;,&quot;float&quot;,&quot;double&quot;,&quot;double precision&quot;,&quot;real&quot;]</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#withscalecolumntypes">withScaleColumnTypes</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L192">src/driver/aurora-data-api/AuroraDataApiDriver.ts:192</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Gets list of column data types that supports scale by a driver.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="withwidthcolumntypes" class="tsd-anchor"></a>
+					<h3>with<wbr>Width<wbr>Column<wbr>Types</h3>
+					<div class="tsd-signature tsd-kind-icon">with<wbr>Width<wbr>Column<wbr>Types<span class="tsd-signature-symbol">:</span> <a href="../globals.html#columntype" class="tsd-signature-type">ColumnType</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[&quot;bit&quot;,&quot;tinyint&quot;,&quot;smallint&quot;,&quot;mediumint&quot;,&quot;int&quot;,&quot;integer&quot;,&quot;bigint&quot;]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L162">src/driver/aurora-data-api/AuroraDataApiDriver.ts:162</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Gets list of column data types that support length by a driver.</p>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="afterconnect" class="tsd-anchor"></a>
+					<h3>after<wbr>Connect</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">after<wbr>Connect<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#afterconnect">afterConnect</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L338">src/driver/aurora-data-api/AuroraDataApiDriver.ts:338</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Makes any action after connection (e.g. create extensions in Postgres driver).</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="buildtablename" class="tsd-anchor"></a>
+					<h3>build<wbr>Table<wbr>Name</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">build<wbr>Table<wbr>Name<span class="tsd-signature-symbol">(</span>tableName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, schema<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span>, database<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#buildtablename">buildTableName</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L402">src/driver/aurora-data-api/AuroraDataApiDriver.ts:402</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Build full table name with database name, schema name and table name.
+									E.g. &quot;myDB&quot;.&quot;mySchema&quot;.&quot;myTable&quot;</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>tableName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> schema: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> database: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="comparedefaultvalues" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> compare<wbr>Default<wbr>Values</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">compare<wbr>Default<wbr>Values<span class="tsd-signature-symbol">(</span>columnMetadataValue<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, databaseValue<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L826">src/driver/aurora-data-api/AuroraDataApiDriver.ts:826</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Checks if &quot;DEFAULT&quot; values in the column metadata and in the database are equal.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>columnMetadataValue: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>databaseValue: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="connect" class="tsd-anchor"></a>
+					<h3>connect</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">connect<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#connect">connect</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L332">src/driver/aurora-data-api/AuroraDataApiDriver.ts:332</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Performs connection to the database.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="createconnectionoptions" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> create<wbr>Connection<wbr>Options</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Connection<wbr>Options<span class="tsd-signature-symbol">(</span>options<span class="tsd-signature-symbol">: </span><a href="../interfaces/auroradataapiconnectionoptions.html" class="tsd-signature-type">AuroraDataApiConnectionOptions</a>, credentials<span class="tsd-signature-symbol">: </span><a href="../interfaces/auroradataapiconnectioncredentialsoptions.html" class="tsd-signature-type">AuroraDataApiConnectionCredentialsOptions</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L778">src/driver/aurora-data-api/AuroraDataApiDriver.ts:778</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Creates a new connection pool for a given database credentials.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>options: <a href="../interfaces/auroradataapiconnectionoptions.html" class="tsd-signature-type">AuroraDataApiConnectionOptions</a></h5>
+								</li>
+								<li>
+									<h5>credentials: <a href="../interfaces/auroradataapiconnectioncredentialsoptions.html" class="tsd-signature-type">AuroraDataApiConnectionCredentialsOptions</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="createfulltype" class="tsd-anchor"></a>
+					<h3>create<wbr>Full<wbr>Type</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Full<wbr>Type<span class="tsd-signature-symbol">(</span>column<span class="tsd-signature-symbol">: </span><a href="tablecolumn.html" class="tsd-signature-type">TableColumn</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#createfulltype">createFullType</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L600">src/driver/aurora-data-api/AuroraDataApiDriver.ts:600</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Creates column type definition including length, precision and scale</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>column: <a href="tablecolumn.html" class="tsd-signature-type">TableColumn</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="creategeneratedmap" class="tsd-anchor"></a>
+					<h3>create<wbr>Generated<wbr>Map</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Generated<wbr>Map<span class="tsd-signature-symbol">(</span>metadata<span class="tsd-signature-symbol">: </span><a href="entitymetadata.html" class="tsd-signature-type">EntityMetadata</a>, insertResult<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#creategeneratedmap">createGeneratedMap</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L664">src/driver/aurora-data-api/AuroraDataApiDriver.ts:664</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Creates generated map of values generated or returned by database after INSERT query.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>metadata: <a href="entitymetadata.html" class="tsd-signature-type">EntityMetadata</a></h5>
+								</li>
+								<li>
+									<h5>insertResult: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="createparameter" class="tsd-anchor"></a>
+					<h3>create<wbr>Parameter</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Parameter<span class="tsd-signature-symbol">(</span>parameterName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, index<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#createparameter">createParameter</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L756">src/driver/aurora-data-api/AuroraDataApiDriver.ts:756</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Creates an escaped parameter.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>parameterName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>index: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="createpool" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> create<wbr>Pool</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Pool<span class="tsd-signature-symbol">(</span>connectionOptions<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L804">src/driver/aurora-data-api/AuroraDataApiDriver.ts:804</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Creates a new connection pool for a given database credentials.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>connectionOptions: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="createqueryrunner" class="tsd-anchor"></a>
+					<h3>create<wbr>Query<wbr>Runner</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Query<wbr>Runner<span class="tsd-signature-symbol">(</span>mode<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">"master"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"slave"</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="auroradataapiqueryrunner.html" class="tsd-signature-type">AuroraDataApiQueryRunner</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#createqueryrunner">createQueryRunner</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L358">src/driver/aurora-data-api/AuroraDataApiDriver.ts:358</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Creates a query runner used to execute database queries.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5><span class="tsd-flag ts-flagDefault value">Default value</span> mode: <span class="tsd-signature-type">"master"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"slave"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;master&quot;</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="auroradataapiqueryrunner.html" class="tsd-signature-type">AuroraDataApiQueryRunner</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="createschemabuilder" class="tsd-anchor"></a>
+					<h3>create<wbr>Schema<wbr>Builder</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">create<wbr>Schema<wbr>Builder<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="rdbmsschemabuilder.html" class="tsd-signature-type">RdbmsSchemaBuilder</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#createschemabuilder">createSchemaBuilder</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L351">src/driver/aurora-data-api/AuroraDataApiDriver.ts:351</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Creates a schema builder used to build and sync a schema.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <a href="rdbmsschemabuilder.html" class="tsd-signature-type">RdbmsSchemaBuilder</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="disconnect" class="tsd-anchor"></a>
+					<h3>disconnect</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">disconnect<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#disconnect">disconnect</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L345">src/driver/aurora-data-api/AuroraDataApiDriver.ts:345</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Closes connection with the database.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="escape" class="tsd-anchor"></a>
+					<h3>escape</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">escape<span class="tsd-signature-symbol">(</span>columnName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#escape">escape</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L394">src/driver/aurora-data-api/AuroraDataApiDriver.ts:394</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Escapes a column name.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>columnName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="escapequerywithparameters" class="tsd-anchor"></a>
+					<h3>escape<wbr>Query<wbr>With<wbr>Parameters</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">escape<wbr>Query<wbr>With<wbr>Parameters<span class="tsd-signature-symbol">(</span>sql<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, parameters<span class="tsd-signature-symbol">: </span><a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a>, nativeParameters<span class="tsd-signature-symbol">: </span><a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#escapequerywithparameters">escapeQueryWithParameters</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L366">src/driver/aurora-data-api/AuroraDataApiDriver.ts:366</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Replaces parameters in the given sql with special escaping character
+									and an array of parameter names to be passed to a query.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>sql: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>parameters: <a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a></h5>
+								</li>
+								<li>
+									<h5>nativeParameters: <a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-symbol">[</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">, </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="findchangedcolumns" class="tsd-anchor"></a>
+					<h3>find<wbr>Changed<wbr>Columns</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">find<wbr>Changed<wbr>Columns<span class="tsd-signature-symbol">(</span>tableColumns<span class="tsd-signature-symbol">: </span><a href="tablecolumn.html" class="tsd-signature-type">TableColumn</a><span class="tsd-signature-symbol">[]</span>, columnMetadatas<span class="tsd-signature-symbol">: </span><a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#findchangedcolumns">findChangedColumns</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L684">src/driver/aurora-data-api/AuroraDataApiDriver.ts:684</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Differentiate columns of this table and columns from the given column metadatas columns
+									and returns only changed.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>tableColumns: <a href="tablecolumn.html" class="tsd-signature-type">TableColumn</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+								<li>
+									<h5>columnMetadatas: <a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getcolumnlength" class="tsd-anchor"></a>
+					<h3>get<wbr>Column<wbr>Length</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Column<wbr>Length<span class="tsd-signature-symbol">(</span>column<span class="tsd-signature-symbol">: </span><a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol"> | </span><a href="tablecolumn.html" class="tsd-signature-type">TableColumn</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L574">src/driver/aurora-data-api/AuroraDataApiDriver.ts:574</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns default column lengths, which is required on column creation.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>column: <a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol"> | </span><a href="tablecolumn.html" class="tsd-signature-type">TableColumn</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="isreturningsqlsupported" class="tsd-anchor"></a>
+					<h3>is<wbr>Returning<wbr>Sql<wbr>Supported</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>Returning<wbr>Sql<wbr>Supported<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#isreturningsqlsupported">isReturningSqlSupported</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L742">src/driver/aurora-data-api/AuroraDataApiDriver.ts:742</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns true if driver supports RETURNING / OUTPUT statement.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="isuuidgenerationsupported" class="tsd-anchor"></a>
+					<h3>isUUIDGeneration<wbr>Supported</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">isUUIDGeneration<wbr>Supported<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#isuuidgenerationsupported">isUUIDGenerationSupported</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L749">src/driver/aurora-data-api/AuroraDataApiDriver.ts:749</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Returns true if driver supports uuid values generation on its own.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="loaddependencies" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> load<wbr>Dependencies</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Dependencies<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L767">src/driver/aurora-data-api/AuroraDataApiDriver.ts:767</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Loads all driver dependencies.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="normalizedefault" class="tsd-anchor"></a>
+					<h3>normalize<wbr>Default</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">normalize<wbr>Default<span class="tsd-signature-symbol">(</span>columnMetadata<span class="tsd-signature-symbol">: </span><a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#normalizedefault">normalizeDefault</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L537">src/driver/aurora-data-api/AuroraDataApiDriver.ts:537</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Normalizes &quot;default&quot; value of the column.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>columnMetadata: <a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="normalizeisunique" class="tsd-anchor"></a>
+					<h3>normalize<wbr>IsUnique</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">normalize<wbr>IsUnique<span class="tsd-signature-symbol">(</span>column<span class="tsd-signature-symbol">: </span><a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#normalizeisunique">normalizeIsUnique</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L567">src/driver/aurora-data-api/AuroraDataApiDriver.ts:567</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Normalizes &quot;isUnique&quot; value of the column.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>column: <a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="normalizetype" class="tsd-anchor"></a>
+					<h3>normalize<wbr>Type</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">normalize<wbr>Type<span class="tsd-signature-symbol">(</span>column<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L489">src/driver/aurora-data-api/AuroraDataApiDriver.ts:489</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Creates a database type from a given column metadata.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>column: <span class="tsd-signature-type">object</span></h5>
+									<ul class="tsd-parameters">
+										<li class="tsd-parameter">
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> length<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+										</li>
+										<li class="tsd-parameter">
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> precision<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">null</span></h5>
+										</li>
+										<li class="tsd-parameter">
+											<h5><span class="tsd-flag ts-flagOptional">Optional</span> scale<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">number</span></h5>
+										</li>
+										<li class="tsd-parameter">
+											<h5>type<span class="tsd-signature-symbol">: </span><a href="../globals.html#columntype" class="tsd-signature-type">ColumnType</a></h5>
+										</li>
+									</ul>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="obtainmasterconnection" class="tsd-anchor"></a>
+					<h3>obtain<wbr>Master<wbr>Connection</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">obtain<wbr>Master<wbr>Connection<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#obtainmasterconnection">obtainMasterConnection</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L628">src/driver/aurora-data-api/AuroraDataApiDriver.ts:628</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Obtains a new database connection to a master server.
+										Used for replication.
+									If replication is not setup then returns default connection&#39;s database connection.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="obtainslaveconnection" class="tsd-anchor"></a>
+					<h3>obtain<wbr>Slave<wbr>Connection</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">obtain<wbr>Slave<wbr>Connection<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#obtainslaveconnection">obtainSlaveConnection</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L650">src/driver/aurora-data-api/AuroraDataApiDriver.ts:650</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Obtains a new database connection to a slave server.
+										Used for replication.
+									If replication is not setup then returns master (default) connection&#39;s database connection.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="preparedbconnection" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> prepare<wbr>DbConnection</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">prepare<wbr>DbConnection<span class="tsd-signature-symbol">(</span>connection<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L811">src/driver/aurora-data-api/AuroraDataApiDriver.ts:811</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Attaches all required base handlers to a database connection, such as the unhandled error handler.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>connection: <span class="tsd-signature-type">any</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="preparehydratedvalue" class="tsd-anchor"></a>
+					<h3>prepare<wbr>Hydrated<wbr>Value</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">prepare<wbr>Hydrated<wbr>Value<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, columnMetadata<span class="tsd-signature-symbol">: </span><a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#preparehydratedvalue">prepareHydratedValue</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L447">src/driver/aurora-data-api/AuroraDataApiDriver.ts:447</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Prepares given value to a value to be persisted, based on its column type or metadata.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <span class="tsd-signature-type">any</span></h5>
+								</li>
+								<li>
+									<h5>columnMetadata: <a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="preparepersistentvalue" class="tsd-anchor"></a>
+					<h3>prepare<wbr>Persistent<wbr>Value</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">prepare<wbr>Persistent<wbr>Value<span class="tsd-signature-symbol">(</span>value<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span>, columnMetadata<span class="tsd-signature-symbol">: </span><a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">any</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#preparepersistentvalue">preparePersistentValue</a></p>
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L409">src/driver/aurora-data-api/AuroraDataApiDriver.ts:409</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Prepares given value to a value to be persisted, based on its column type and metadata.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>value: <span class="tsd-signature-type">any</span></h5>
+								</li>
+								<li>
+									<h5>columnMetadata: <a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">any</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Object literals</h2>
+				<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-class">
+					<a name="datatypedefaults" class="tsd-anchor"></a>
+					<h3>data<wbr>Type<wbr>Defaults</h3>
+					<div class="tsd-signature tsd-kind-icon">data<wbr>Type<wbr>Defaults<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#datatypedefaults">dataTypeDefaults</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L260">src/driver/aurora-data-api/AuroraDataApiDriver.ts:260</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Default values of length, precision and scale depends on column data type.
+							Used in the cases when length/precision/scale is not specified by user.</p>
+						</div>
+					</div>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.bigint" class="tsd-anchor"></a>
+						<h3>bigint</h3>
+						<div class="tsd-signature tsd-kind-icon">bigint<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L282">src/driver/aurora-data-api/AuroraDataApiDriver.ts:282</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.bigint.width" class="tsd-anchor"></a>
+							<h3>width</h3>
+							<div class="tsd-signature tsd-kind-icon">width<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;20</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L282">src/driver/aurora-data-api/AuroraDataApiDriver.ts:282</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.binary" class="tsd-anchor"></a>
+						<h3>binary</h3>
+						<div class="tsd-signature tsd-kind-icon">binary<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L265">src/driver/aurora-data-api/AuroraDataApiDriver.ts:265</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.binary.length" class="tsd-anchor"></a>
+							<h3>length</h3>
+							<div class="tsd-signature tsd-kind-icon">length<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;1</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L265">src/driver/aurora-data-api/AuroraDataApiDriver.ts:265</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.bit" class="tsd-anchor"></a>
+						<h3>bit</h3>
+						<div class="tsd-signature tsd-kind-icon">bit<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L276">src/driver/aurora-data-api/AuroraDataApiDriver.ts:276</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.bit.width-1" class="tsd-anchor"></a>
+							<h3>width</h3>
+							<div class="tsd-signature tsd-kind-icon">width<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;1</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L276">src/driver/aurora-data-api/AuroraDataApiDriver.ts:276</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.char" class="tsd-anchor"></a>
+						<h3>char</h3>
+						<div class="tsd-signature tsd-kind-icon">char<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L264">src/driver/aurora-data-api/AuroraDataApiDriver.ts:264</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.char.length-1" class="tsd-anchor"></a>
+							<h3>length</h3>
+							<div class="tsd-signature tsd-kind-icon">length<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;1</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L264">src/driver/aurora-data-api/AuroraDataApiDriver.ts:264</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.datetime" class="tsd-anchor"></a>
+						<h3>datetime</h3>
+						<div class="tsd-signature tsd-kind-icon">datetime<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L274">src/driver/aurora-data-api/AuroraDataApiDriver.ts:274</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.datetime.precision" class="tsd-anchor"></a>
+							<h3>precision</h3>
+							<div class="tsd-signature tsd-kind-icon">precision<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;0</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L274">src/driver/aurora-data-api/AuroraDataApiDriver.ts:274</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.dec" class="tsd-anchor"></a>
+						<h3>dec</h3>
+						<div class="tsd-signature tsd-kind-icon">dec<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L268">src/driver/aurora-data-api/AuroraDataApiDriver.ts:268</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.dec.precision-1" class="tsd-anchor"></a>
+							<h3>precision</h3>
+							<div class="tsd-signature tsd-kind-icon">precision<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;10</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L268">src/driver/aurora-data-api/AuroraDataApiDriver.ts:268</a></li>
+								</ul>
+							</aside>
+						</section>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.dec.scale" class="tsd-anchor"></a>
+							<h3>scale</h3>
+							<div class="tsd-signature tsd-kind-icon">scale<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;0</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L268">src/driver/aurora-data-api/AuroraDataApiDriver.ts:268</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.decimal" class="tsd-anchor"></a>
+						<h3>decimal</h3>
+						<div class="tsd-signature tsd-kind-icon">decimal<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L267">src/driver/aurora-data-api/AuroraDataApiDriver.ts:267</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.decimal.precision-2" class="tsd-anchor"></a>
+							<h3>precision</h3>
+							<div class="tsd-signature tsd-kind-icon">precision<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;10</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L267">src/driver/aurora-data-api/AuroraDataApiDriver.ts:267</a></li>
+								</ul>
+							</aside>
+						</section>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.decimal.scale-1" class="tsd-anchor"></a>
+							<h3>scale</h3>
+							<div class="tsd-signature tsd-kind-icon">scale<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;0</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L267">src/driver/aurora-data-api/AuroraDataApiDriver.ts:267</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.double" class="tsd-anchor"></a>
+						<h3>double</h3>
+						<div class="tsd-signature tsd-kind-icon">double<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L272">src/driver/aurora-data-api/AuroraDataApiDriver.ts:272</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.double.precision-3" class="tsd-anchor"></a>
+							<h3>precision</h3>
+							<div class="tsd-signature tsd-kind-icon">precision<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;22</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L272">src/driver/aurora-data-api/AuroraDataApiDriver.ts:272</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.fixed" class="tsd-anchor"></a>
+						<h3>fixed</h3>
+						<div class="tsd-signature tsd-kind-icon">fixed<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L270">src/driver/aurora-data-api/AuroraDataApiDriver.ts:270</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.fixed.precision-4" class="tsd-anchor"></a>
+							<h3>precision</h3>
+							<div class="tsd-signature tsd-kind-icon">precision<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;10</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L270">src/driver/aurora-data-api/AuroraDataApiDriver.ts:270</a></li>
+								</ul>
+							</aside>
+						</section>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.fixed.scale-2" class="tsd-anchor"></a>
+							<h3>scale</h3>
+							<div class="tsd-signature tsd-kind-icon">scale<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;0</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L270">src/driver/aurora-data-api/AuroraDataApiDriver.ts:270</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.float" class="tsd-anchor"></a>
+						<h3>float</h3>
+						<div class="tsd-signature tsd-kind-icon">float<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L271">src/driver/aurora-data-api/AuroraDataApiDriver.ts:271</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.float.precision-5" class="tsd-anchor"></a>
+							<h3>precision</h3>
+							<div class="tsd-signature tsd-kind-icon">precision<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;12</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L271">src/driver/aurora-data-api/AuroraDataApiDriver.ts:271</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.int" class="tsd-anchor"></a>
+						<h3>int</h3>
+						<div class="tsd-signature tsd-kind-icon">int<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L277">src/driver/aurora-data-api/AuroraDataApiDriver.ts:277</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.int.width-2" class="tsd-anchor"></a>
+							<h3>width</h3>
+							<div class="tsd-signature tsd-kind-icon">width<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;11</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L277">src/driver/aurora-data-api/AuroraDataApiDriver.ts:277</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.integer" class="tsd-anchor"></a>
+						<h3>integer</h3>
+						<div class="tsd-signature tsd-kind-icon">integer<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L278">src/driver/aurora-data-api/AuroraDataApiDriver.ts:278</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.integer.width-3" class="tsd-anchor"></a>
+							<h3>width</h3>
+							<div class="tsd-signature tsd-kind-icon">width<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;11</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L278">src/driver/aurora-data-api/AuroraDataApiDriver.ts:278</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.mediumint" class="tsd-anchor"></a>
+						<h3>mediumint</h3>
+						<div class="tsd-signature tsd-kind-icon">mediumint<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L281">src/driver/aurora-data-api/AuroraDataApiDriver.ts:281</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.mediumint.width-4" class="tsd-anchor"></a>
+							<h3>width</h3>
+							<div class="tsd-signature tsd-kind-icon">width<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;9</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L281">src/driver/aurora-data-api/AuroraDataApiDriver.ts:281</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.national_varchar" class="tsd-anchor"></a>
+						<h3>national varchar</h3>
+						<div class="tsd-signature tsd-kind-icon">national varchar<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L263">src/driver/aurora-data-api/AuroraDataApiDriver.ts:263</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.national_varchar.length-2" class="tsd-anchor"></a>
+							<h3>length</h3>
+							<div class="tsd-signature tsd-kind-icon">length<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;255</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L263">src/driver/aurora-data-api/AuroraDataApiDriver.ts:263</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.numeric" class="tsd-anchor"></a>
+						<h3>numeric</h3>
+						<div class="tsd-signature tsd-kind-icon">numeric<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L269">src/driver/aurora-data-api/AuroraDataApiDriver.ts:269</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.numeric.precision-6" class="tsd-anchor"></a>
+							<h3>precision</h3>
+							<div class="tsd-signature tsd-kind-icon">precision<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;10</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L269">src/driver/aurora-data-api/AuroraDataApiDriver.ts:269</a></li>
+								</ul>
+							</aside>
+						</section>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.numeric.scale-3" class="tsd-anchor"></a>
+							<h3>scale</h3>
+							<div class="tsd-signature tsd-kind-icon">scale<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;0</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L269">src/driver/aurora-data-api/AuroraDataApiDriver.ts:269</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.nvarchar" class="tsd-anchor"></a>
+						<h3>nvarchar</h3>
+						<div class="tsd-signature tsd-kind-icon">nvarchar<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L262">src/driver/aurora-data-api/AuroraDataApiDriver.ts:262</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.nvarchar.length-3" class="tsd-anchor"></a>
+							<h3>length</h3>
+							<div class="tsd-signature tsd-kind-icon">length<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;255</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L262">src/driver/aurora-data-api/AuroraDataApiDriver.ts:262</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.smallint" class="tsd-anchor"></a>
+						<h3>smallint</h3>
+						<div class="tsd-signature tsd-kind-icon">smallint<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L280">src/driver/aurora-data-api/AuroraDataApiDriver.ts:280</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.smallint.width-5" class="tsd-anchor"></a>
+							<h3>width</h3>
+							<div class="tsd-signature tsd-kind-icon">width<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;6</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L280">src/driver/aurora-data-api/AuroraDataApiDriver.ts:280</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.time" class="tsd-anchor"></a>
+						<h3>time</h3>
+						<div class="tsd-signature tsd-kind-icon">time<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L273">src/driver/aurora-data-api/AuroraDataApiDriver.ts:273</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.time.precision-7" class="tsd-anchor"></a>
+							<h3>precision</h3>
+							<div class="tsd-signature tsd-kind-icon">precision<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;0</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L273">src/driver/aurora-data-api/AuroraDataApiDriver.ts:273</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.timestamp" class="tsd-anchor"></a>
+						<h3>timestamp</h3>
+						<div class="tsd-signature tsd-kind-icon">timestamp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L275">src/driver/aurora-data-api/AuroraDataApiDriver.ts:275</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.timestamp.precision-8" class="tsd-anchor"></a>
+							<h3>precision</h3>
+							<div class="tsd-signature tsd-kind-icon">precision<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;0</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L275">src/driver/aurora-data-api/AuroraDataApiDriver.ts:275</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.tinyint" class="tsd-anchor"></a>
+						<h3>tinyint</h3>
+						<div class="tsd-signature tsd-kind-icon">tinyint<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L279">src/driver/aurora-data-api/AuroraDataApiDriver.ts:279</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.tinyint.width-6" class="tsd-anchor"></a>
+							<h3>width</h3>
+							<div class="tsd-signature tsd-kind-icon">width<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;4</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L279">src/driver/aurora-data-api/AuroraDataApiDriver.ts:279</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.varbinary" class="tsd-anchor"></a>
+						<h3>varbinary</h3>
+						<div class="tsd-signature tsd-kind-icon">varbinary<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L266">src/driver/aurora-data-api/AuroraDataApiDriver.ts:266</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.varbinary.length-4" class="tsd-anchor"></a>
+							<h3>length</h3>
+							<div class="tsd-signature tsd-kind-icon">length<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;255</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L266">src/driver/aurora-data-api/AuroraDataApiDriver.ts:266</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-object-literal">
+						<a name="datatypedefaults.varchar" class="tsd-anchor"></a>
+						<h3>varchar</h3>
+						<div class="tsd-signature tsd-kind-icon">varchar<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L261">src/driver/aurora-data-api/AuroraDataApiDriver.ts:261</a></li>
+							</ul>
+						</aside>
+						<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+							<a name="datatypedefaults.varchar.length-5" class="tsd-anchor"></a>
+							<h3>length</h3>
+							<div class="tsd-signature tsd-kind-icon">length<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;255</span></div>
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L261">src/driver/aurora-data-api/AuroraDataApiDriver.ts:261</a></li>
+								</ul>
+							</aside>
+						</section>
+					</section>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-object-literal tsd-parent-kind-class">
+					<a name="mappeddatatypes" class="tsd-anchor"></a>
+					<h3>mapped<wbr>Data<wbr>Types</h3>
+					<div class="tsd-signature tsd-kind-icon">mapped<wbr>Data<wbr>Types<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<p>Implementation of <a href="../interfaces/driver.html">Driver</a>.<a href="../interfaces/driver.html#mappeddatatypes">mappedDataTypes</a></p>
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L227">src/driver/aurora-data-api/AuroraDataApiDriver.ts:227</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>ORM has special columns and we need to know what database column types should be for those columns.
+							Column types are driver dependant.</p>
+						</div>
+					</div>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.cacheduration" class="tsd-anchor"></a>
+						<h3>cache<wbr>Duration</h3>
+						<div class="tsd-signature tsd-kind-icon">cache<wbr>Duration<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"int"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;int&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L245">src/driver/aurora-data-api/AuroraDataApiDriver.ts:245</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.cacheid" class="tsd-anchor"></a>
+						<h3>cache<wbr>Id</h3>
+						<div class="tsd-signature tsd-kind-icon">cache<wbr>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"int"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;int&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L242">src/driver/aurora-data-api/AuroraDataApiDriver.ts:242</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.cacheidentifier" class="tsd-anchor"></a>
+						<h3>cache<wbr>Identifier</h3>
+						<div class="tsd-signature tsd-kind-icon">cache<wbr>Identifier<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"varchar"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;varchar&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L243">src/driver/aurora-data-api/AuroraDataApiDriver.ts:243</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.cachequery" class="tsd-anchor"></a>
+						<h3>cache<wbr>Query</h3>
+						<div class="tsd-signature tsd-kind-icon">cache<wbr>Query<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"text"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;text&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L246">src/driver/aurora-data-api/AuroraDataApiDriver.ts:246</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.cacheresult" class="tsd-anchor"></a>
+						<h3>cache<wbr>Result</h3>
+						<div class="tsd-signature tsd-kind-icon">cache<wbr>Result<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"text"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;text&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L247">src/driver/aurora-data-api/AuroraDataApiDriver.ts:247</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.cachetime" class="tsd-anchor"></a>
+						<h3>cache<wbr>Time</h3>
+						<div class="tsd-signature tsd-kind-icon">cache<wbr>Time<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"bigint"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;bigint&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L244">src/driver/aurora-data-api/AuroraDataApiDriver.ts:244</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.createdate" class="tsd-anchor"></a>
+						<h3>create<wbr>Date</h3>
+						<div class="tsd-signature tsd-kind-icon">create<wbr>Date<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"datetime"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;datetime&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L228">src/driver/aurora-data-api/AuroraDataApiDriver.ts:228</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.createdatedefault" class="tsd-anchor"></a>
+						<h3>create<wbr>Date<wbr>Default</h3>
+						<div class="tsd-signature tsd-kind-icon">create<wbr>Date<wbr>Default<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;CURRENT_TIMESTAMP(6)&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L230">src/driver/aurora-data-api/AuroraDataApiDriver.ts:230</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.createdateprecision" class="tsd-anchor"></a>
+						<h3>create<wbr>Date<wbr>Precision</h3>
+						<div class="tsd-signature tsd-kind-icon">create<wbr>Date<wbr>Precision<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;6</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L229">src/driver/aurora-data-api/AuroraDataApiDriver.ts:229</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.deletedate" class="tsd-anchor"></a>
+						<h3>delete<wbr>Date</h3>
+						<div class="tsd-signature tsd-kind-icon">delete<wbr>Date<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"datetime"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;datetime&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L234">src/driver/aurora-data-api/AuroraDataApiDriver.ts:234</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.deletedatenullable" class="tsd-anchor"></a>
+						<h3>delete<wbr>Date<wbr>Nullable</h3>
+						<div class="tsd-signature tsd-kind-icon">delete<wbr>Date<wbr>Nullable<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">true</span><span class="tsd-signature-symbol"> =&nbsp;true</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L236">src/driver/aurora-data-api/AuroraDataApiDriver.ts:236</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.deletedateprecision" class="tsd-anchor"></a>
+						<h3>delete<wbr>Date<wbr>Precision</h3>
+						<div class="tsd-signature tsd-kind-icon">delete<wbr>Date<wbr>Precision<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;6</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L235">src/driver/aurora-data-api/AuroraDataApiDriver.ts:235</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.metadatadatabase" class="tsd-anchor"></a>
+						<h3>metadata<wbr>Database</h3>
+						<div class="tsd-signature tsd-kind-icon">metadata<wbr>Database<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"varchar"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;varchar&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L249">src/driver/aurora-data-api/AuroraDataApiDriver.ts:249</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.metadataname" class="tsd-anchor"></a>
+						<h3>metadata<wbr>Name</h3>
+						<div class="tsd-signature tsd-kind-icon">metadata<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"varchar"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;varchar&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L252">src/driver/aurora-data-api/AuroraDataApiDriver.ts:252</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.metadataschema" class="tsd-anchor"></a>
+						<h3>metadata<wbr>Schema</h3>
+						<div class="tsd-signature tsd-kind-icon">metadata<wbr>Schema<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"varchar"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;varchar&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L250">src/driver/aurora-data-api/AuroraDataApiDriver.ts:250</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.metadatatable" class="tsd-anchor"></a>
+						<h3>metadata<wbr>Table</h3>
+						<div class="tsd-signature tsd-kind-icon">metadata<wbr>Table<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"varchar"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;varchar&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L251">src/driver/aurora-data-api/AuroraDataApiDriver.ts:251</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.metadatatype" class="tsd-anchor"></a>
+						<h3>metadata<wbr>Type</h3>
+						<div class="tsd-signature tsd-kind-icon">metadata<wbr>Type<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"varchar"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;varchar&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L248">src/driver/aurora-data-api/AuroraDataApiDriver.ts:248</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.metadatavalue" class="tsd-anchor"></a>
+						<h3>metadata<wbr>Value</h3>
+						<div class="tsd-signature tsd-kind-icon">metadata<wbr>Value<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"text"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;text&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L253">src/driver/aurora-data-api/AuroraDataApiDriver.ts:253</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.migrationid" class="tsd-anchor"></a>
+						<h3>migration<wbr>Id</h3>
+						<div class="tsd-signature tsd-kind-icon">migration<wbr>Id<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"int"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;int&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L239">src/driver/aurora-data-api/AuroraDataApiDriver.ts:239</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.migrationname" class="tsd-anchor"></a>
+						<h3>migration<wbr>Name</h3>
+						<div class="tsd-signature tsd-kind-icon">migration<wbr>Name<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"varchar"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;varchar&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L240">src/driver/aurora-data-api/AuroraDataApiDriver.ts:240</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.migrationtimestamp" class="tsd-anchor"></a>
+						<h3>migration<wbr>Timestamp</h3>
+						<div class="tsd-signature tsd-kind-icon">migration<wbr>Timestamp<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"bigint"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;bigint&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L241">src/driver/aurora-data-api/AuroraDataApiDriver.ts:241</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.treelevel" class="tsd-anchor"></a>
+						<h3>tree<wbr>Level</h3>
+						<div class="tsd-signature tsd-kind-icon">tree<wbr>Level<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"int"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;int&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L238">src/driver/aurora-data-api/AuroraDataApiDriver.ts:238</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.updatedate" class="tsd-anchor"></a>
+						<h3>update<wbr>Date</h3>
+						<div class="tsd-signature tsd-kind-icon">update<wbr>Date<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"datetime"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;datetime&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L231">src/driver/aurora-data-api/AuroraDataApiDriver.ts:231</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.updatedatedefault" class="tsd-anchor"></a>
+						<h3>update<wbr>Date<wbr>Default</h3>
+						<div class="tsd-signature tsd-kind-icon">update<wbr>Date<wbr>Default<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> =&nbsp;&quot;CURRENT_TIMESTAMP(6)&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L233">src/driver/aurora-data-api/AuroraDataApiDriver.ts:233</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.updatedateprecision" class="tsd-anchor"></a>
+						<h3>update<wbr>Date<wbr>Precision</h3>
+						<div class="tsd-signature tsd-kind-icon">update<wbr>Date<wbr>Precision<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">number</span><span class="tsd-signature-symbol"> =&nbsp;6</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L232">src/driver/aurora-data-api/AuroraDataApiDriver.ts:232</a></li>
+							</ul>
+						</aside>
+					</section>
+					<section class="tsd-panel tsd-member tsd-kind-variable tsd-parent-kind-object-literal">
+						<a name="mappeddatatypes.version" class="tsd-anchor"></a>
+						<h3>version</h3>
+						<div class="tsd-signature tsd-kind-icon">version<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"int"</span><span class="tsd-signature-symbol"> =&nbsp;&quot;int&quot;</span></div>
+						<aside class="tsd-sources">
+							<ul>
+								<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/driver/aurora-data-api/AuroraDataApiDriver.ts#L237">src/driver/aurora-data-api/AuroraDataApiDriver.ts:237</a></li>
+							</ul>
+						</aside>
+					</section>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="auroradataapidriver.html" class="tsd-kind-icon">Aurora<wbr>Data<wbr>Api<wbr>Driver</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#dataapidriver" class="tsd-kind-icon">Data<wbr>Api<wbr>Driver</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#client" class="tsd-kind-icon">client</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#connection" class="tsd-kind-icon">connection</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#database" class="tsd-kind-icon">database</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#isreplicated" class="tsd-kind-icon">is<wbr>Replicated</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#maxaliaslength" class="tsd-kind-icon">max<wbr>Alias<wbr>Length</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#options" class="tsd-kind-icon">options</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#pool" class="tsd-kind-icon">pool</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#poolcluster" class="tsd-kind-icon">pool<wbr>Cluster</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#spatialtypes" class="tsd-kind-icon">spatial<wbr>Types</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#supporteddatatypes" class="tsd-kind-icon">supported<wbr>Data<wbr>Types</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#treesupport" class="tsd-kind-icon">tree<wbr>Support</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#unsignedandzerofilltypes" class="tsd-kind-icon">unsigned<wbr>And<wbr>Zerofill<wbr>Types</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#withlengthcolumntypes" class="tsd-kind-icon">with<wbr>Length<wbr>Column<wbr>Types</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#withprecisioncolumntypes" class="tsd-kind-icon">with<wbr>Precision<wbr>Column<wbr>Types</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#withscalecolumntypes" class="tsd-kind-icon">with<wbr>Scale<wbr>Column<wbr>Types</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#withwidthcolumntypes" class="tsd-kind-icon">with<wbr>Width<wbr>Column<wbr>Types</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#afterconnect" class="tsd-kind-icon">after<wbr>Connect</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#buildtablename" class="tsd-kind-icon">build<wbr>Table<wbr>Name</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="auroradataapidriver.html#comparedefaultvalues" class="tsd-kind-icon">compare<wbr>Default<wbr>Values</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#connect" class="tsd-kind-icon">connect</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="auroradataapidriver.html#createconnectionoptions" class="tsd-kind-icon">create<wbr>Connection<wbr>Options</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#createfulltype" class="tsd-kind-icon">create<wbr>Full<wbr>Type</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#creategeneratedmap" class="tsd-kind-icon">create<wbr>Generated<wbr>Map</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#createparameter" class="tsd-kind-icon">create<wbr>Parameter</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="auroradataapidriver.html#createpool" class="tsd-kind-icon">create<wbr>Pool</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#createqueryrunner" class="tsd-kind-icon">create<wbr>Query<wbr>Runner</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#createschemabuilder" class="tsd-kind-icon">create<wbr>Schema<wbr>Builder</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#disconnect" class="tsd-kind-icon">disconnect</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#escape" class="tsd-kind-icon">escape</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#escapequerywithparameters" class="tsd-kind-icon">escape<wbr>Query<wbr>With<wbr>Parameters</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#findchangedcolumns" class="tsd-kind-icon">find<wbr>Changed<wbr>Columns</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#getcolumnlength" class="tsd-kind-icon">get<wbr>Column<wbr>Length</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#isreturningsqlsupported" class="tsd-kind-icon">is<wbr>Returning<wbr>Sql<wbr>Supported</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#isuuidgenerationsupported" class="tsd-kind-icon">isUUIDGeneration<wbr>Supported</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="auroradataapidriver.html#loaddependencies" class="tsd-kind-icon">load<wbr>Dependencies</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#normalizedefault" class="tsd-kind-icon">normalize<wbr>Default</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#normalizeisunique" class="tsd-kind-icon">normalize<wbr>IsUnique</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#normalizetype" class="tsd-kind-icon">normalize<wbr>Type</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#obtainmasterconnection" class="tsd-kind-icon">obtain<wbr>Master<wbr>Connection</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#obtainslaveconnection" class="tsd-kind-icon">obtain<wbr>Slave<wbr>Connection</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="auroradataapidriver.html#preparedbconnection" class="tsd-kind-icon">prepare<wbr>DbConnection</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#preparehydratedvalue" class="tsd-kind-icon">prepare<wbr>Hydrated<wbr>Value</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#preparepersistentvalue" class="tsd-kind-icon">prepare<wbr>Persistent<wbr>Value</a>
+							</li>
+							<li class=" tsd-kind-object-literal tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#datatypedefaults" class="tsd-kind-icon">data<wbr>Type<wbr>Defaults</a>
+							</li>
+							<li class=" tsd-kind-object-literal tsd-parent-kind-class">
+								<a href="auroradataapidriver.html#mappeddatatypes" class="tsd-kind-icon">mapped<wbr>Data<wbr>Types</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

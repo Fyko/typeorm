@@ -1,0 +1,1180 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>BaseQueryRunner | typeorm</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">typeorm</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="basequeryrunner.html">BaseQueryRunner</a>
+				</li>
+			</ul>
+			<h1>Class BaseQueryRunner</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">BaseQueryRunner</span>
+						<ul class="tsd-hierarchy">
+							<li>
+								<a href="oraclequeryrunner.html" class="tsd-signature-type">OracleQueryRunner</a>
+							</li>
+							<li>
+								<a href="mysqlqueryrunner.html" class="tsd-signature-type">MysqlQueryRunner</a>
+							</li>
+							<li>
+								<a href="cockroachqueryrunner.html" class="tsd-signature-type">CockroachQueryRunner</a>
+							</li>
+							<li>
+								<a href="sqlserverqueryrunner.html" class="tsd-signature-type">SqlServerQueryRunner</a>
+							</li>
+							<li>
+								<a href="auroradataapiqueryrunner.html" class="tsd-signature-type">AuroraDataApiQueryRunner</a>
+							</li>
+							<li>
+								<a href="sapqueryrunner.html" class="tsd-signature-type">SapQueryRunner</a>
+							</li>
+							<li>
+								<a href="abstractsqlitequeryrunner.html" class="tsd-signature-type">AbstractSqliteQueryRunner</a>
+							</li>
+							<li>
+								<a href="postgresqueryrunner.html" class="tsd-signature-type">PostgresQueryRunner</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="basequeryrunner.html#broadcaster" class="tsd-kind-icon">broadcaster</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="basequeryrunner.html#connection" class="tsd-kind-icon">connection</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="basequeryrunner.html#data" class="tsd-kind-icon">data</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="basequeryrunner.html#databaseconnection" class="tsd-kind-icon">database<wbr>Connection</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="basequeryrunner.html#isreleased" class="tsd-kind-icon">is<wbr>Released</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="basequeryrunner.html#istransactionactive" class="tsd-kind-icon">is<wbr>Transaction<wbr>Active</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="basequeryrunner.html#loadedtables" class="tsd-kind-icon">loaded<wbr>Tables</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="basequeryrunner.html#loadedviews" class="tsd-kind-icon">loaded<wbr>Views</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="basequeryrunner.html#manager" class="tsd-kind-icon">manager</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="basequeryrunner.html#mode" class="tsd-kind-icon">mode</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="basequeryrunner.html#sqlinmemory" class="tsd-kind-icon">sql<wbr>InMemory</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><a href="basequeryrunner.html#sqlmemorymode" class="tsd-kind-icon">sql<wbr>Memory<wbr>Mode</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="basequeryrunner.html#clearsqlmemory" class="tsd-kind-icon">clear<wbr>Sql<wbr>Memory</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="basequeryrunner.html#disablesqlmemory" class="tsd-kind-icon">disable<wbr>Sql<wbr>Memory</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="basequeryrunner.html#enablesqlmemory" class="tsd-kind-icon">enable<wbr>Sql<wbr>Memory</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="basequeryrunner.html#executememorydownsql" class="tsd-kind-icon">execute<wbr>Memory<wbr>Down<wbr>Sql</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="basequeryrunner.html#executememoryupsql" class="tsd-kind-icon">execute<wbr>Memory<wbr>UpSql</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="basequeryrunner.html#executequeries" class="tsd-kind-icon">execute<wbr>Queries</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="basequeryrunner.html#getcachedtable" class="tsd-kind-icon">get<wbr>Cached<wbr>Table</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="basequeryrunner.html#getcachedview" class="tsd-kind-icon">get<wbr>Cached<wbr>View</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="basequeryrunner.html#getmemorysql" class="tsd-kind-icon">get<wbr>Memory<wbr>Sql</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="basequeryrunner.html#gettable" class="tsd-kind-icon">get<wbr>Table</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="basequeryrunner.html#gettables" class="tsd-kind-icon">get<wbr>Tables</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="basequeryrunner.html#gettypeormmetadatatablename" class="tsd-kind-icon">get<wbr>Typeorm<wbr>Metadata<wbr>Table<wbr>Name</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="basequeryrunner.html#getview" class="tsd-kind-icon">get<wbr>View</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="basequeryrunner.html#getviews" class="tsd-kind-icon">get<wbr>Views</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="basequeryrunner.html#iscolumnchanged" class="tsd-kind-icon">is<wbr>Column<wbr>Changed</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="basequeryrunner.html#isdefaultcolumnlength" class="tsd-kind-icon">is<wbr>Default<wbr>Column<wbr>Length</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="basequeryrunner.html#isdefaultcolumnprecision" class="tsd-kind-icon">is<wbr>Default<wbr>Column<wbr>Precision</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="basequeryrunner.html#isdefaultcolumnscale" class="tsd-kind-icon">is<wbr>Default<wbr>Column<wbr>Scale</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="basequeryrunner.html#isdefaultcolumnwidth" class="tsd-kind-icon">is<wbr>Default<wbr>Column<wbr>Width</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="basequeryrunner.html#loadtables" class="tsd-kind-icon">load<wbr>Tables</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="basequeryrunner.html#loadviews" class="tsd-kind-icon">load<wbr>Views</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="basequeryrunner.html#query" class="tsd-kind-icon">query</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="basequeryrunner.html#replacecachedtable" class="tsd-kind-icon">replace<wbr>Cached<wbr>Table</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="broadcaster" class="tsd-anchor"></a>
+					<h3>broadcaster</h3>
+					<div class="tsd-signature tsd-kind-icon">broadcaster<span class="tsd-signature-symbol">:</span> <a href="broadcaster.html" class="tsd-signature-type">Broadcaster</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L59">src/query-runner/BaseQueryRunner.ts:59</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Broadcaster used on this query runner to broadcast entity events.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="connection" class="tsd-anchor"></a>
+					<h3>connection</h3>
+					<div class="tsd-signature tsd-kind-icon">connection<span class="tsd-signature-symbol">:</span> <a href="connection.html" class="tsd-signature-type">Connection</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L22">src/query-runner/BaseQueryRunner.ts:22</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Connection used by this query runner.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="data" class="tsd-anchor"></a>
+					<h3>data</h3>
+					<div class="tsd-signature tsd-kind-icon">data<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">object</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L44">src/query-runner/BaseQueryRunner.ts:44</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Stores temporarily user data.
+							Useful for sharing data with subscribers.</p>
+						</div>
+					</div>
+					<div class="tsd-type-declaration">
+						<h4>Type declaration</h4>
+						<ul class="tsd-parameters">
+						</ul>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="databaseconnection" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> database<wbr>Connection</h3>
+					<div class="tsd-signature tsd-kind-icon">database<wbr>Connection<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">any</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L68">src/query-runner/BaseQueryRunner.ts:68</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Real database connection from a connection pool used to perform queries.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="isreleased" class="tsd-anchor"></a>
+					<h3>is<wbr>Released</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Released<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;false</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L33">src/query-runner/BaseQueryRunner.ts:33</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Indicates if connection for this query runner is released.
+							Once its released, query runner cannot run queries anymore.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="istransactionactive" class="tsd-anchor"></a>
+					<h3>is<wbr>Transaction<wbr>Active</h3>
+					<div class="tsd-signature tsd-kind-icon">is<wbr>Transaction<wbr>Active<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;false</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L38">src/query-runner/BaseQueryRunner.ts:38</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Indicates if transaction is in progress.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="loadedtables" class="tsd-anchor"></a>
+					<h3>loaded<wbr>Tables</h3>
+					<div class="tsd-signature tsd-kind-icon">loaded<wbr>Tables<span class="tsd-signature-symbol">:</span> <a href="table.html" class="tsd-signature-type">Table</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L49">src/query-runner/BaseQueryRunner.ts:49</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>All synchronized tables in the database.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="loadedviews" class="tsd-anchor"></a>
+					<h3>loaded<wbr>Views</h3>
+					<div class="tsd-signature tsd-kind-icon">loaded<wbr>Views<span class="tsd-signature-symbol">:</span> <a href="view.html" class="tsd-signature-type">View</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L54">src/query-runner/BaseQueryRunner.ts:54</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>All synchronized views in the database.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="manager" class="tsd-anchor"></a>
+					<h3>manager</h3>
+					<div class="tsd-signature tsd-kind-icon">manager<span class="tsd-signature-symbol">:</span> <a href="entitymanager.html" class="tsd-signature-type">EntityManager</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L27">src/query-runner/BaseQueryRunner.ts:27</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Entity manager working only with current query runner.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="mode" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> mode</h3>
+					<div class="tsd-signature tsd-kind-icon">mode<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">"master"</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">"slave"</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L85">src/query-runner/BaseQueryRunner.ts:85</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Mode in which query runner executes.
+								Used for replication.
+							If replication is not setup its value is ignored.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="sqlinmemory" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> sql<wbr>InMemory</h3>
+					<div class="tsd-signature tsd-kind-icon">sql<wbr>InMemory<span class="tsd-signature-symbol">:</span> <a href="sqlinmemory.html" class="tsd-signature-type">SqlInMemory</a><span class="tsd-signature-symbol"> =&nbsp;new SqlInMemory()</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L78">src/query-runner/BaseQueryRunner.ts:78</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Sql-s stored if &quot;sql in memory&quot; mode is enabled.</p>
+						</div>
+					</div>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+					<a name="sqlmemorymode" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> sql<wbr>Memory<wbr>Mode</h3>
+					<div class="tsd-signature tsd-kind-icon">sql<wbr>Memory<wbr>Mode<span class="tsd-signature-symbol">:</span> <span class="tsd-signature-type">boolean</span><span class="tsd-signature-symbol"> =&nbsp;false</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L73">src/query-runner/BaseQueryRunner.ts:73</a></li>
+						</ul>
+					</aside>
+					<div class="tsd-comment tsd-typography">
+						<div class="lead">
+							<p>Indicates if special query runner mode in which sql queries won&#39;t be executed is enabled.</p>
+						</div>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="clearsqlmemory" class="tsd-anchor"></a>
+					<h3>clear<wbr>Sql<wbr>Memory</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">clear<wbr>Sql<wbr>Memory<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L164">src/query-runner/BaseQueryRunner.ts:164</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Flushes all memorized sqls.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="disablesqlmemory" class="tsd-anchor"></a>
+					<h3>disable<wbr>Sql<wbr>Memory</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">disable<wbr>Sql<wbr>Memory<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L156">src/query-runner/BaseQueryRunner.ts:156</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Disables special query runner mode in which sql queries won&#39;t be executed
+									started by calling enableSqlMemory() method.</p>
+								</div>
+								<p>Previously memorized sql will be flushed.</p>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="enablesqlmemory" class="tsd-anchor"></a>
+					<h3>enable<wbr>Sql<wbr>Memory</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">enable<wbr>Sql<wbr>Memory<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L145">src/query-runner/BaseQueryRunner.ts:145</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Enables special query runner mode in which sql queries won&#39;t be executed,
+										instead they will be memorized into a special variable inside query runner.
+									You can get memorized sql using getMemorySql() method.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="executememorydownsql" class="tsd-anchor"></a>
+					<h3>execute<wbr>Memory<wbr>Down<wbr>Sql</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">execute<wbr>Memory<wbr>Down<wbr>Sql<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L185">src/query-runner/BaseQueryRunner.ts:185</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Executes down sql queries.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="executememoryupsql" class="tsd-anchor"></a>
+					<h3>execute<wbr>Memory<wbr>UpSql</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">execute<wbr>Memory<wbr>UpSql<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L178">src/query-runner/BaseQueryRunner.ts:178</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Executes up sql queries.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="executequeries" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> execute<wbr>Queries</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">execute<wbr>Queries<span class="tsd-signature-symbol">(</span>upQueries<span class="tsd-signature-symbol">: </span><a href="query.html" class="tsd-signature-type">Query</a><span class="tsd-signature-symbol"> | </span><a href="query.html" class="tsd-signature-type">Query</a><span class="tsd-signature-symbol">[]</span>, downQueries<span class="tsd-signature-symbol">: </span><a href="query.html" class="tsd-signature-type">Query</a><span class="tsd-signature-symbol"> | </span><a href="query.html" class="tsd-signature-type">Query</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L381">src/query-runner/BaseQueryRunner.ts:381</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Executes sql used special for schema build.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>upQueries: <a href="query.html" class="tsd-signature-type">Query</a><span class="tsd-signature-symbol"> | </span><a href="query.html" class="tsd-signature-type">Query</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+								<li>
+									<h5>downQueries: <a href="query.html" class="tsd-signature-type">Query</a><span class="tsd-signature-symbol"> | </span><a href="query.html" class="tsd-signature-type">Query</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">void</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="getcachedtable" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> get<wbr>Cached<wbr>Table</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Cached<wbr>Table<span class="tsd-signature-symbol">(</span>tableName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="table.html" class="tsd-signature-type">Table</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L212">src/query-runner/BaseQueryRunner.ts:212</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Gets table from previously loaded tables, otherwise loads it from database.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>tableName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="table.html" class="tsd-signature-type">Table</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="getcachedview" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> get<wbr>Cached<wbr>View</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Cached<wbr>View<span class="tsd-signature-symbol">(</span>viewName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="view.html" class="tsd-signature-type">View</a><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L196">src/query-runner/BaseQueryRunner.ts:196</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Gets view from previously loaded views, otherwise loads it from database.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>viewName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="view.html" class="tsd-signature-type">View</a><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getmemorysql" class="tsd-anchor"></a>
+					<h3>get<wbr>Memory<wbr>Sql</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Memory<wbr>Sql<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="sqlinmemory.html" class="tsd-signature-type">SqlInMemory</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L171">src/query-runner/BaseQueryRunner.ts:171</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Gets sql stored in the memory. Parameters in the sql are already replaced.</p>
+								</div>
+							</div>
+							<h4 class="tsd-returns-title">Returns <a href="sqlinmemory.html" class="tsd-signature-type">SqlInMemory</a></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="gettable" class="tsd-anchor"></a>
+					<h3>get<wbr>Table</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Table<span class="tsd-signature-symbol">(</span>tablePath<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="table.html" class="tsd-signature-type">Table</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L111">src/query-runner/BaseQueryRunner.ts:111</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Loads given table&#39;s data from the database.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>tablePath: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="table.html" class="tsd-signature-type">Table</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="gettables" class="tsd-anchor"></a>
+					<h3>get<wbr>Tables</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Tables<span class="tsd-signature-symbol">(</span>tableNames<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="table.html" class="tsd-signature-type">Table</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L119">src/query-runner/BaseQueryRunner.ts:119</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Loads all tables (with given names) from the database.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>tableNames: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="table.html" class="tsd-signature-type">Table</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="gettypeormmetadatatablename" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> get<wbr>Typeorm<wbr>Metadata<wbr>Table<wbr>Name</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Typeorm<wbr>Metadata<wbr>Table<wbr>Name<span class="tsd-signature-symbol">(</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L242">src/query-runner/BaseQueryRunner.ts:242</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">string</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getview" class="tsd-anchor"></a>
+					<h3>get<wbr>View</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>View<span class="tsd-signature-symbol">(</span>viewPath<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="view.html" class="tsd-signature-type">View</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L127">src/query-runner/BaseQueryRunner.ts:127</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Loads given view&#39;s data from the database.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>viewPath: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="view.html" class="tsd-signature-type">View</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="getviews" class="tsd-anchor"></a>
+					<h3>get<wbr>Views</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">get<wbr>Views<span class="tsd-signature-symbol">(</span>viewPaths<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="view.html" class="tsd-signature-type">View</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L135">src/query-runner/BaseQueryRunner.ts:135</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Loads given view&#39;s data from the database.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>viewPaths: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="view.html" class="tsd-signature-type">View</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="iscolumnchanged" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> is<wbr>Column<wbr>Changed</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>Column<wbr>Changed<span class="tsd-signature-symbol">(</span>oldColumn<span class="tsd-signature-symbol">: </span><a href="tablecolumn.html" class="tsd-signature-type">TableColumn</a>, newColumn<span class="tsd-signature-symbol">: </span><a href="tablecolumn.html" class="tsd-signature-type">TableColumn</a>, checkDefault<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span>, checkComment<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L251">src/query-runner/BaseQueryRunner.ts:251</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Checks if at least one of column properties was changed.
+									Does not checks column type, length and autoincrement, because these properties changes separately.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>oldColumn: <a href="tablecolumn.html" class="tsd-signature-type">TableColumn</a></h5>
+								</li>
+								<li>
+									<h5>newColumn: <a href="tablecolumn.html" class="tsd-signature-type">TableColumn</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> checkDefault: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> checkComment: <span class="tsd-signature-type">undefined</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">false</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">true</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="isdefaultcolumnlength" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> is<wbr>Default<wbr>Column<wbr>Length</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>Default<wbr>Column<wbr>Length<span class="tsd-signature-symbol">(</span>table<span class="tsd-signature-symbol">: </span><a href="table.html" class="tsd-signature-type">Table</a>, column<span class="tsd-signature-symbol">: </span><a href="tablecolumn.html" class="tsd-signature-type">TableColumn</a>, length<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L297">src/query-runner/BaseQueryRunner.ts:297</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Checks if column length is by default.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>table: <a href="table.html" class="tsd-signature-type">Table</a></h5>
+								</li>
+								<li>
+									<h5>column: <a href="tablecolumn.html" class="tsd-signature-type">TableColumn</a></h5>
+								</li>
+								<li>
+									<h5>length: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="isdefaultcolumnprecision" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> is<wbr>Default<wbr>Column<wbr>Precision</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>Default<wbr>Column<wbr>Precision<span class="tsd-signature-symbol">(</span>table<span class="tsd-signature-symbol">: </span><a href="table.html" class="tsd-signature-type">Table</a>, column<span class="tsd-signature-symbol">: </span><a href="tablecolumn.html" class="tsd-signature-type">TableColumn</a>, precision<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L339">src/query-runner/BaseQueryRunner.ts:339</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Checks if column precision is by default.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>table: <a href="table.html" class="tsd-signature-type">Table</a></h5>
+								</li>
+								<li>
+									<h5>column: <a href="tablecolumn.html" class="tsd-signature-type">TableColumn</a></h5>
+								</li>
+								<li>
+									<h5>precision: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="isdefaultcolumnscale" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> is<wbr>Default<wbr>Column<wbr>Scale</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>Default<wbr>Column<wbr>Scale<span class="tsd-signature-symbol">(</span>table<span class="tsd-signature-symbol">: </span><a href="table.html" class="tsd-signature-type">Table</a>, column<span class="tsd-signature-symbol">: </span><a href="tablecolumn.html" class="tsd-signature-type">TableColumn</a>, scale<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L360">src/query-runner/BaseQueryRunner.ts:360</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Checks if column scale is by default.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>table: <a href="table.html" class="tsd-signature-type">Table</a></h5>
+								</li>
+								<li>
+									<h5>column: <a href="tablecolumn.html" class="tsd-signature-type">TableColumn</a></h5>
+								</li>
+								<li>
+									<h5>scale: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="isdefaultcolumnwidth" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> is<wbr>Default<wbr>Column<wbr>Width</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>Default<wbr>Column<wbr>Width<span class="tsd-signature-symbol">(</span>table<span class="tsd-signature-symbol">: </span><a href="table.html" class="tsd-signature-type">Table</a>, column<span class="tsd-signature-symbol">: </span><a href="tablecolumn.html" class="tsd-signature-type">TableColumn</a>, width<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">number</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L318">src/query-runner/BaseQueryRunner.ts:318</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Checks if column display width is by default. Used only for MySQL.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>table: <a href="table.html" class="tsd-signature-type">Table</a></h5>
+								</li>
+								<li>
+									<h5>column: <a href="tablecolumn.html" class="tsd-signature-type">TableColumn</a></h5>
+								</li>
+								<li>
+									<h5>width: <span class="tsd-signature-type">number</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="loadtables" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagAbstract">Abstract</span> load<wbr>Tables</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Tables<span class="tsd-signature-symbol">(</span>tablePaths<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="table.html" class="tsd-signature-type">Table</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L100">src/query-runner/BaseQueryRunner.ts:100</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>tablePaths: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="table.html" class="tsd-signature-type">Table</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="loadviews" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> <span class="tsd-flag ts-flagAbstract">Abstract</span> load<wbr>Views</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">load<wbr>Views<span class="tsd-signature-symbol">(</span>tablePaths<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="view.html" class="tsd-signature-type">View</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L102">src/query-runner/BaseQueryRunner.ts:102</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>tablePaths: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><a href="view.html" class="tsd-signature-type">View</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="query" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagAbstract">Abstract</span> query</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">query<span class="tsd-signature-symbol">(</span>query<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span>, parameters<span class="tsd-signature-symbol">?: </span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L94">src/query-runner/BaseQueryRunner.ts:94</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Executes a given SQL query.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>query: <span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> parameters: <span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">Promise</span><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="replacecachedtable" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> replace<wbr>Cached<wbr>Table</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">replace<wbr>Cached<wbr>Table<span class="tsd-signature-symbol">(</span>table<span class="tsd-signature-symbol">: </span><a href="table.html" class="tsd-signature-type">Table</a>, changedTable<span class="tsd-signature-symbol">: </span><a href="table.html" class="tsd-signature-type">Table</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/query-runner/BaseQueryRunner.ts#L228">src/query-runner/BaseQueryRunner.ts:228</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Replaces loaded table with given changed table.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>table: <a href="table.html" class="tsd-signature-type">Table</a></h5>
+								</li>
+								<li>
+									<h5>changedTable: <a href="table.html" class="tsd-signature-type">Table</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="basequeryrunner.html" class="tsd-kind-icon">Base<wbr>Query<wbr>Runner</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="basequeryrunner.html#broadcaster" class="tsd-kind-icon">broadcaster</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="basequeryrunner.html#connection" class="tsd-kind-icon">connection</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="basequeryrunner.html#data" class="tsd-kind-icon">data</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="basequeryrunner.html#databaseconnection" class="tsd-kind-icon">database<wbr>Connection</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="basequeryrunner.html#isreleased" class="tsd-kind-icon">is<wbr>Released</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="basequeryrunner.html#istransactionactive" class="tsd-kind-icon">is<wbr>Transaction<wbr>Active</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="basequeryrunner.html#loadedtables" class="tsd-kind-icon">loaded<wbr>Tables</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="basequeryrunner.html#loadedviews" class="tsd-kind-icon">loaded<wbr>Views</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="basequeryrunner.html#manager" class="tsd-kind-icon">manager</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="basequeryrunner.html#mode" class="tsd-kind-icon">mode</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="basequeryrunner.html#sqlinmemory" class="tsd-kind-icon">sql<wbr>InMemory</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-protected">
+								<a href="basequeryrunner.html#sqlmemorymode" class="tsd-kind-icon">sql<wbr>Memory<wbr>Mode</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="basequeryrunner.html#clearsqlmemory" class="tsd-kind-icon">clear<wbr>Sql<wbr>Memory</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="basequeryrunner.html#disablesqlmemory" class="tsd-kind-icon">disable<wbr>Sql<wbr>Memory</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="basequeryrunner.html#enablesqlmemory" class="tsd-kind-icon">enable<wbr>Sql<wbr>Memory</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="basequeryrunner.html#executememorydownsql" class="tsd-kind-icon">execute<wbr>Memory<wbr>Down<wbr>Sql</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="basequeryrunner.html#executememoryupsql" class="tsd-kind-icon">execute<wbr>Memory<wbr>UpSql</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="basequeryrunner.html#executequeries" class="tsd-kind-icon">execute<wbr>Queries</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="basequeryrunner.html#getcachedtable" class="tsd-kind-icon">get<wbr>Cached<wbr>Table</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="basequeryrunner.html#getcachedview" class="tsd-kind-icon">get<wbr>Cached<wbr>View</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="basequeryrunner.html#getmemorysql" class="tsd-kind-icon">get<wbr>Memory<wbr>Sql</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="basequeryrunner.html#gettable" class="tsd-kind-icon">get<wbr>Table</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="basequeryrunner.html#gettables" class="tsd-kind-icon">get<wbr>Tables</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="basequeryrunner.html#gettypeormmetadatatablename" class="tsd-kind-icon">get<wbr>Typeorm<wbr>Metadata<wbr>Table<wbr>Name</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="basequeryrunner.html#getview" class="tsd-kind-icon">get<wbr>View</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="basequeryrunner.html#getviews" class="tsd-kind-icon">get<wbr>Views</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="basequeryrunner.html#iscolumnchanged" class="tsd-kind-icon">is<wbr>Column<wbr>Changed</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="basequeryrunner.html#isdefaultcolumnlength" class="tsd-kind-icon">is<wbr>Default<wbr>Column<wbr>Length</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="basequeryrunner.html#isdefaultcolumnprecision" class="tsd-kind-icon">is<wbr>Default<wbr>Column<wbr>Precision</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="basequeryrunner.html#isdefaultcolumnscale" class="tsd-kind-icon">is<wbr>Default<wbr>Column<wbr>Scale</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="basequeryrunner.html#isdefaultcolumnwidth" class="tsd-kind-icon">is<wbr>Default<wbr>Column<wbr>Width</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="basequeryrunner.html#loadtables" class="tsd-kind-icon">load<wbr>Tables</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="basequeryrunner.html#loadviews" class="tsd-kind-icon">load<wbr>Views</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="basequeryrunner.html#query" class="tsd-kind-icon">query</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="basequeryrunner.html#replacecachedtable" class="tsd-kind-icon">replace<wbr>Cached<wbr>Table</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

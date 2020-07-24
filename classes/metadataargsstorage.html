@@ -1,0 +1,1471 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>MetadataArgsStorage | typeorm</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">typeorm</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="metadataargsstorage.html">MetadataArgsStorage</a>
+				</li>
+			</ul>
+			<h1>Class MetadataArgsStorage</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Storage all metadatas args of all available types: tables, columns, subscribers, relations, etc.
+							Each metadata args represents some specifications of what it represents.
+						MetadataArgs used to create a real Metadata objects.</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">MetadataArgsStorage</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#checks" class="tsd-kind-icon">checks</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#columns" class="tsd-kind-icon">columns</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#discriminatorvalues" class="tsd-kind-icon">discriminator<wbr>Values</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#embeddeds" class="tsd-kind-icon">embeddeds</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#entitylisteners" class="tsd-kind-icon">entity<wbr>Listeners</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#entityrepositories" class="tsd-kind-icon">entity<wbr>Repositories</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#entitysubscribers" class="tsd-kind-icon">entity<wbr>Subscribers</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#exclusions" class="tsd-kind-icon">exclusions</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#generations" class="tsd-kind-icon">generations</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#indices" class="tsd-kind-icon">indices</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#inheritances" class="tsd-kind-icon">inheritances</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#joincolumns" class="tsd-kind-icon">join<wbr>Columns</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#jointables" class="tsd-kind-icon">join<wbr>Tables</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#namingstrategies" class="tsd-kind-icon">naming<wbr>Strategies</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#relationcounts" class="tsd-kind-icon">relation<wbr>Counts</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#relationids" class="tsd-kind-icon">relation<wbr>Ids</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#relations" class="tsd-kind-icon">relations</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#tables" class="tsd-kind-icon">tables</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#transactionentitymanagers" class="tsd-kind-icon">transaction<wbr>Entity<wbr>Managers</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#transactionrepositories" class="tsd-kind-icon">transaction<wbr>Repositories</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#trees" class="tsd-kind-icon">trees</a></li>
+								<li class="tsd-kind-property tsd-parent-kind-class"><a href="metadataargsstorage.html#uniques" class="tsd-kind-icon">uniques</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-protected"><a href="metadataargsstorage.html#filterbytarget" class="tsd-kind-icon">filter<wbr>ByTarget</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-protected"><a href="metadataargsstorage.html#filterbytargetandwithoutduplicateembeddedproperties" class="tsd-kind-icon">filter<wbr>ByTarget<wbr>And<wbr>Without<wbr>Duplicate<wbr>Embedded<wbr>Properties</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-protected"><a href="metadataargsstorage.html#filterbytargetandwithoutduplicateproperties" class="tsd-kind-icon">filter<wbr>ByTarget<wbr>And<wbr>Without<wbr>Duplicate<wbr>Properties</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#filterchecks" class="tsd-kind-icon">filter<wbr>Checks</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#filtercolumns" class="tsd-kind-icon">filter<wbr>Columns</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#filterembeddeds" class="tsd-kind-icon">filter<wbr>Embeddeds</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#filterexclusions" class="tsd-kind-icon">filter<wbr>Exclusions</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#filterindices" class="tsd-kind-icon">filter<wbr>Indices</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#filterjoincolumns" class="tsd-kind-icon">filter<wbr>Join<wbr>Columns</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#filterlisteners" class="tsd-kind-icon">filter<wbr>Listeners</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#filternamingstrategies" class="tsd-kind-icon">filter<wbr>Naming<wbr>Strategies</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#filterrelationcounts" class="tsd-kind-icon">filter<wbr>Relation<wbr>Counts</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#filterrelationids" class="tsd-kind-icon">filter<wbr>Relation<wbr>Ids</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#filterrelations" class="tsd-kind-icon">filter<wbr>Relations</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#filtersingletablechildren" class="tsd-kind-icon">filter<wbr>Single<wbr>Table<wbr>Children</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#filtersubscribers" class="tsd-kind-icon">filter<wbr>Subscribers</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#filtertables" class="tsd-kind-icon">filter<wbr>Tables</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#filtertransactionentitymanagers" class="tsd-kind-icon">filter<wbr>Transaction<wbr>Entity<wbr>Managers</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#filtertransactionrepository" class="tsd-kind-icon">filter<wbr>Transaction<wbr>Repository</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#filteruniques" class="tsd-kind-icon">filter<wbr>Uniques</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#finddiscriminatorvalue" class="tsd-kind-icon">find<wbr>Discriminator<wbr>Value</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#findgenerated" class="tsd-kind-icon">find<wbr>Generated</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#findinheritancetype" class="tsd-kind-icon">find<wbr>Inheritance<wbr>Type</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#findjointable" class="tsd-kind-icon">find<wbr>Join<wbr>Table</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="metadataargsstorage.html#findtree" class="tsd-kind-icon">find<wbr>Tree</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="checks" class="tsd-anchor"></a>
+					<h3>checks</h3>
+					<div class="tsd-signature tsd-kind-icon">checks<span class="tsd-signature-symbol">:</span> <a href="../interfaces/checkmetadataargs.html" class="tsd-signature-type">CheckMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L45">src/metadata-args/MetadataArgsStorage.ts:45</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="columns" class="tsd-anchor"></a>
+					<h3>columns</h3>
+					<div class="tsd-signature tsd-kind-icon">columns<span class="tsd-signature-symbol">:</span> <a href="../interfaces/columnmetadataargs.html" class="tsd-signature-type">ColumnMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L47">src/metadata-args/MetadataArgsStorage.ts:47</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="discriminatorvalues" class="tsd-anchor"></a>
+					<h3>discriminator<wbr>Values</h3>
+					<div class="tsd-signature tsd-kind-icon">discriminator<wbr>Values<span class="tsd-signature-symbol">:</span> <a href="../interfaces/discriminatorvaluemetadataargs.html" class="tsd-signature-type">DiscriminatorValueMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L57">src/metadata-args/MetadataArgsStorage.ts:57</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="embeddeds" class="tsd-anchor"></a>
+					<h3>embeddeds</h3>
+					<div class="tsd-signature tsd-kind-icon">embeddeds<span class="tsd-signature-symbol">:</span> <a href="../interfaces/embeddedmetadataargs.html" class="tsd-signature-type">EmbeddedMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L55">src/metadata-args/MetadataArgsStorage.ts:55</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="entitylisteners" class="tsd-anchor"></a>
+					<h3>entity<wbr>Listeners</h3>
+					<div class="tsd-signature tsd-kind-icon">entity<wbr>Listeners<span class="tsd-signature-symbol">:</span> <a href="../interfaces/entitylistenermetadataargs.html" class="tsd-signature-type">EntityListenerMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L52">src/metadata-args/MetadataArgsStorage.ts:52</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="entityrepositories" class="tsd-anchor"></a>
+					<h3>entity<wbr>Repositories</h3>
+					<div class="tsd-signature tsd-kind-icon">entity<wbr>Repositories<span class="tsd-signature-symbol">:</span> <a href="../interfaces/entityrepositorymetadataargs.html" class="tsd-signature-type">EntityRepositoryMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L38">src/metadata-args/MetadataArgsStorage.ts:38</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="entitysubscribers" class="tsd-anchor"></a>
+					<h3>entity<wbr>Subscribers</h3>
+					<div class="tsd-signature tsd-kind-icon">entity<wbr>Subscribers<span class="tsd-signature-symbol">:</span> <a href="../interfaces/entitysubscribermetadataargs.html" class="tsd-signature-type">EntitySubscriberMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L42">src/metadata-args/MetadataArgsStorage.ts:42</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="exclusions" class="tsd-anchor"></a>
+					<h3>exclusions</h3>
+					<div class="tsd-signature tsd-kind-icon">exclusions<span class="tsd-signature-symbol">:</span> <a href="../interfaces/exclusionmetadataargs.html" class="tsd-signature-type">ExclusionMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L46">src/metadata-args/MetadataArgsStorage.ts:46</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="generations" class="tsd-anchor"></a>
+					<h3>generations</h3>
+					<div class="tsd-signature tsd-kind-icon">generations<span class="tsd-signature-symbol">:</span> <a href="../interfaces/generatedmetadataargs.html" class="tsd-signature-type">GeneratedMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L48">src/metadata-args/MetadataArgsStorage.ts:48</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="indices" class="tsd-anchor"></a>
+					<h3>indices</h3>
+					<div class="tsd-signature tsd-kind-icon">indices<span class="tsd-signature-symbol">:</span> <a href="../interfaces/indexmetadataargs.html" class="tsd-signature-type">IndexMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L43">src/metadata-args/MetadataArgsStorage.ts:43</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="inheritances" class="tsd-anchor"></a>
+					<h3>inheritances</h3>
+					<div class="tsd-signature tsd-kind-icon">inheritances<span class="tsd-signature-symbol">:</span> <a href="../interfaces/inheritancemetadataargs.html" class="tsd-signature-type">InheritanceMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L56">src/metadata-args/MetadataArgsStorage.ts:56</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="joincolumns" class="tsd-anchor"></a>
+					<h3>join<wbr>Columns</h3>
+					<div class="tsd-signature tsd-kind-icon">join<wbr>Columns<span class="tsd-signature-symbol">:</span> <a href="../interfaces/joincolumnmetadataargs.html" class="tsd-signature-type">JoinColumnMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L50">src/metadata-args/MetadataArgsStorage.ts:50</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="jointables" class="tsd-anchor"></a>
+					<h3>join<wbr>Tables</h3>
+					<div class="tsd-signature tsd-kind-icon">join<wbr>Tables<span class="tsd-signature-symbol">:</span> <a href="../interfaces/jointablemetadataargs.html" class="tsd-signature-type">JoinTableMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L51">src/metadata-args/MetadataArgsStorage.ts:51</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="namingstrategies" class="tsd-anchor"></a>
+					<h3>naming<wbr>Strategies</h3>
+					<div class="tsd-signature tsd-kind-icon">naming<wbr>Strategies<span class="tsd-signature-symbol">:</span> <a href="../interfaces/namingstrategymetadataargs.html" class="tsd-signature-type">NamingStrategyMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L41">src/metadata-args/MetadataArgsStorage.ts:41</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="relationcounts" class="tsd-anchor"></a>
+					<h3>relation<wbr>Counts</h3>
+					<div class="tsd-signature tsd-kind-icon">relation<wbr>Counts<span class="tsd-signature-symbol">:</span> <a href="../interfaces/relationcountmetadataargs.html" class="tsd-signature-type">RelationCountMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L53">src/metadata-args/MetadataArgsStorage.ts:53</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="relationids" class="tsd-anchor"></a>
+					<h3>relation<wbr>Ids</h3>
+					<div class="tsd-signature tsd-kind-icon">relation<wbr>Ids<span class="tsd-signature-symbol">:</span> <a href="../interfaces/relationidmetadataargs.html" class="tsd-signature-type">RelationIdMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L54">src/metadata-args/MetadataArgsStorage.ts:54</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="relations" class="tsd-anchor"></a>
+					<h3>relations</h3>
+					<div class="tsd-signature tsd-kind-icon">relations<span class="tsd-signature-symbol">:</span> <a href="../interfaces/relationmetadataargs.html" class="tsd-signature-type">RelationMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L49">src/metadata-args/MetadataArgsStorage.ts:49</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="tables" class="tsd-anchor"></a>
+					<h3>tables</h3>
+					<div class="tsd-signature tsd-kind-icon">tables<span class="tsd-signature-symbol">:</span> <a href="../interfaces/tablemetadataargs.html" class="tsd-signature-type">TableMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L36">src/metadata-args/MetadataArgsStorage.ts:36</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="transactionentitymanagers" class="tsd-anchor"></a>
+					<h3>transaction<wbr>Entity<wbr>Managers</h3>
+					<div class="tsd-signature tsd-kind-icon">transaction<wbr>Entity<wbr>Managers<span class="tsd-signature-symbol">:</span> <a href="../interfaces/transactionentitymetadataargs.html" class="tsd-signature-type">TransactionEntityMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L39">src/metadata-args/MetadataArgsStorage.ts:39</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="transactionrepositories" class="tsd-anchor"></a>
+					<h3>transaction<wbr>Repositories</h3>
+					<div class="tsd-signature tsd-kind-icon">transaction<wbr>Repositories<span class="tsd-signature-symbol">:</span> <a href="../interfaces/transactionrepositorymetadataargs.html" class="tsd-signature-type">TransactionRepositoryMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L40">src/metadata-args/MetadataArgsStorage.ts:40</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="trees" class="tsd-anchor"></a>
+					<h3>trees</h3>
+					<div class="tsd-signature tsd-kind-icon">trees<span class="tsd-signature-symbol">:</span> <a href="../interfaces/treemetadataargs.html" class="tsd-signature-type">TreeMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L37">src/metadata-args/MetadataArgsStorage.ts:37</a></li>
+						</ul>
+					</aside>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class">
+					<a name="uniques" class="tsd-anchor"></a>
+					<h3>uniques</h3>
+					<div class="tsd-signature tsd-kind-icon">uniques<span class="tsd-signature-symbol">:</span> <a href="../interfaces/uniquemetadataargs.html" class="tsd-signature-type">UniqueMetadataArgs</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol"> =&nbsp;[]</span></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L44">src/metadata-args/MetadataArgsStorage.ts:44</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-protected">
+					<a name="filterbytarget" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> filter<wbr>ByTarget</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>ByTarget&lt;T&gt;<span class="tsd-signature-symbol">(</span>array<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span>, target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L213">src/metadata-args/MetadataArgsStorage.ts:213</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Filters given array by a given target or targets.</p>
+								</div>
+							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>T<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span></h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>array: <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+								<li>
+									<h5>target: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-protected">
+					<a name="filterbytargetandwithoutduplicateembeddedproperties" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> filter<wbr>ByTarget<wbr>And<wbr>Without<wbr>Duplicate<wbr>Embedded<wbr>Properties</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>ByTarget<wbr>And<wbr>Without<wbr>Duplicate<wbr>Embedded<wbr>Properties&lt;T&gt;<span class="tsd-signature-symbol">(</span>array<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span>, target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L237">src/metadata-args/MetadataArgsStorage.ts:237</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Filters given array by a given target or targets and prevents duplicate embedded property names.</p>
+								</div>
+							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>T<span class="tsd-signature-symbol">: </span><a href="../interfaces/embeddedmetadataargs.html" class="tsd-signature-type">EmbeddedMetadataArgs</a></h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>array: <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+								<li>
+									<h5>target: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-protected">
+					<a name="filterbytargetandwithoutduplicateproperties" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> filter<wbr>ByTarget<wbr>And<wbr>Without<wbr>Duplicate<wbr>Properties</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>ByTarget<wbr>And<wbr>Without<wbr>Duplicate<wbr>Properties&lt;T&gt;<span class="tsd-signature-symbol">(</span>array<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span>, target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L222">src/metadata-args/MetadataArgsStorage.ts:222</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Filters given array by a given target or targets and prevents duplicate property names.</p>
+								</div>
+							</div>
+							<h4 class="tsd-type-parameters-title">Type parameters</h4>
+							<ul class="tsd-type-parameters">
+								<li>
+									<h4>T<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span></h4>
+								</li>
+							</ul>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>array: <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+								<li>
+									<h5>target: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">T</span><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="filterchecks" class="tsd-anchor"></a>
+					<h3>filter<wbr>Checks</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Checks<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/checkmetadataargs.html" class="tsd-signature-type">CheckMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Checks<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/checkmetadataargs.html" class="tsd-signature-type">CheckMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L124">src/metadata-args/MetadataArgsStorage.ts:124</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/checkmetadataargs.html" class="tsd-signature-type">CheckMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L125">src/metadata-args/MetadataArgsStorage.ts:125</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/checkmetadataargs.html" class="tsd-signature-type">CheckMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="filtercolumns" class="tsd-anchor"></a>
+					<h3>filter<wbr>Columns</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Columns<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/columnmetadataargs.html" class="tsd-signature-type">ColumnMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Columns<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/columnmetadataargs.html" class="tsd-signature-type">ColumnMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L69">src/metadata-args/MetadataArgsStorage.ts:69</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/columnmetadataargs.html" class="tsd-signature-type">ColumnMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L70">src/metadata-args/MetadataArgsStorage.ts:70</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/columnmetadataargs.html" class="tsd-signature-type">ColumnMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="filterembeddeds" class="tsd-anchor"></a>
+					<h3>filter<wbr>Embeddeds</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Embeddeds<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/embeddedmetadataargs.html" class="tsd-signature-type">EmbeddedMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Embeddeds<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/embeddedmetadataargs.html" class="tsd-signature-type">EmbeddedMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L146">src/metadata-args/MetadataArgsStorage.ts:146</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/embeddedmetadataargs.html" class="tsd-signature-type">EmbeddedMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L147">src/metadata-args/MetadataArgsStorage.ts:147</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/embeddedmetadataargs.html" class="tsd-signature-type">EmbeddedMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="filterexclusions" class="tsd-anchor"></a>
+					<h3>filter<wbr>Exclusions</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Exclusions<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/exclusionmetadataargs.html" class="tsd-signature-type">ExclusionMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Exclusions<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/exclusionmetadataargs.html" class="tsd-signature-type">ExclusionMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L132">src/metadata-args/MetadataArgsStorage.ts:132</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/exclusionmetadataargs.html" class="tsd-signature-type">ExclusionMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L133">src/metadata-args/MetadataArgsStorage.ts:133</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/exclusionmetadataargs.html" class="tsd-signature-type">ExclusionMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="filterindices" class="tsd-anchor"></a>
+					<h3>filter<wbr>Indices</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Indices<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/indexmetadataargs.html" class="tsd-signature-type">IndexMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Indices<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/indexmetadataargs.html" class="tsd-signature-type">IndexMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L107">src/metadata-args/MetadataArgsStorage.ts:107</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/indexmetadataargs.html" class="tsd-signature-type">IndexMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L108">src/metadata-args/MetadataArgsStorage.ts:108</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/indexmetadataargs.html" class="tsd-signature-type">IndexMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="filterjoincolumns" class="tsd-anchor"></a>
+					<h3>filter<wbr>Join<wbr>Columns</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Join<wbr>Columns<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span>, propertyName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/joincolumnmetadataargs.html" class="tsd-signature-type">JoinColumnMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L158">src/metadata-args/MetadataArgsStorage.ts:158</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>propertyName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/joincolumnmetadataargs.html" class="tsd-signature-type">JoinColumnMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="filterlisteners" class="tsd-anchor"></a>
+					<h3>filter<wbr>Listeners</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Listeners<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/entitylistenermetadataargs.html" class="tsd-signature-type">EntityListenerMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Listeners<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/entitylistenermetadataargs.html" class="tsd-signature-type">EntityListenerMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L140">src/metadata-args/MetadataArgsStorage.ts:140</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/entitylistenermetadataargs.html" class="tsd-signature-type">EntityListenerMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L141">src/metadata-args/MetadataArgsStorage.ts:141</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/entitylistenermetadataargs.html" class="tsd-signature-type">EntityListenerMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="filternamingstrategies" class="tsd-anchor"></a>
+					<h3>filter<wbr>Naming<wbr>Strategies</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Naming<wbr>Strategies<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/namingstrategymetadataargs.html" class="tsd-signature-type">NamingStrategyMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Naming<wbr>Strategies<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/namingstrategymetadataargs.html" class="tsd-signature-type">NamingStrategyMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L171">src/metadata-args/MetadataArgsStorage.ts:171</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/namingstrategymetadataargs.html" class="tsd-signature-type">NamingStrategyMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L172">src/metadata-args/MetadataArgsStorage.ts:172</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/namingstrategymetadataargs.html" class="tsd-signature-type">NamingStrategyMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="filterrelationcounts" class="tsd-anchor"></a>
+					<h3>filter<wbr>Relation<wbr>Counts</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Relation<wbr>Counts<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/relationcountmetadataargs.html" class="tsd-signature-type">RelationCountMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Relation<wbr>Counts<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/relationcountmetadataargs.html" class="tsd-signature-type">RelationCountMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L101">src/metadata-args/MetadataArgsStorage.ts:101</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/relationcountmetadataargs.html" class="tsd-signature-type">RelationCountMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L102">src/metadata-args/MetadataArgsStorage.ts:102</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/relationcountmetadataargs.html" class="tsd-signature-type">RelationCountMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="filterrelationids" class="tsd-anchor"></a>
+					<h3>filter<wbr>Relation<wbr>Ids</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Relation<wbr>Ids<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/relationidmetadataargs.html" class="tsd-signature-type">RelationIdMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Relation<wbr>Ids<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/relationidmetadataargs.html" class="tsd-signature-type">RelationIdMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L95">src/metadata-args/MetadataArgsStorage.ts:95</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/relationidmetadataargs.html" class="tsd-signature-type">RelationIdMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L96">src/metadata-args/MetadataArgsStorage.ts:96</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/relationidmetadataargs.html" class="tsd-signature-type">RelationIdMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="filterrelations" class="tsd-anchor"></a>
+					<h3>filter<wbr>Relations</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Relations<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/relationmetadataargs.html" class="tsd-signature-type">RelationMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Relations<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/relationmetadataargs.html" class="tsd-signature-type">RelationMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L89">src/metadata-args/MetadataArgsStorage.ts:89</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/relationmetadataargs.html" class="tsd-signature-type">RelationMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L90">src/metadata-args/MetadataArgsStorage.ts:90</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/relationmetadataargs.html" class="tsd-signature-type">RelationMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="filtersingletablechildren" class="tsd-anchor"></a>
+					<h3>filter<wbr>Single<wbr>Table<wbr>Children</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Single<wbr>Table<wbr>Children<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/tablemetadataargs.html" class="tsd-signature-type">TableMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L189">src/metadata-args/MetadataArgsStorage.ts:189</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/tablemetadataargs.html" class="tsd-signature-type">TableMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="filtersubscribers" class="tsd-anchor"></a>
+					<h3>filter<wbr>Subscribers</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Subscribers<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/entitysubscribermetadataargs.html" class="tsd-signature-type">EntitySubscriberMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Subscribers<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/entitysubscribermetadataargs.html" class="tsd-signature-type">EntitySubscriberMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L165">src/metadata-args/MetadataArgsStorage.ts:165</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/entitysubscribermetadataargs.html" class="tsd-signature-type">EntitySubscriberMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L166">src/metadata-args/MetadataArgsStorage.ts:166</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/entitysubscribermetadataargs.html" class="tsd-signature-type">EntitySubscriberMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="filtertables" class="tsd-anchor"></a>
+					<h3>filter<wbr>Tables</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Tables<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/tablemetadataargs.html" class="tsd-signature-type">TableMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Tables<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/tablemetadataargs.html" class="tsd-signature-type">TableMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L63">src/metadata-args/MetadataArgsStorage.ts:63</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/tablemetadataargs.html" class="tsd-signature-type">TableMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L64">src/metadata-args/MetadataArgsStorage.ts:64</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/tablemetadataargs.html" class="tsd-signature-type">TableMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="filtertransactionentitymanagers" class="tsd-anchor"></a>
+					<h3>filter<wbr>Transaction<wbr>Entity<wbr>Managers</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Transaction<wbr>Entity<wbr>Managers<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span>, propertyName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/transactionentitymetadataargs.html" class="tsd-signature-type">TransactionEntityMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L177">src/metadata-args/MetadataArgsStorage.ts:177</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>propertyName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/transactionentitymetadataargs.html" class="tsd-signature-type">TransactionEntityMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="filtertransactionrepository" class="tsd-anchor"></a>
+					<h3>filter<wbr>Transaction<wbr>Repository</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Transaction<wbr>Repository<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span>, propertyName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/transactionrepositorymetadataargs.html" class="tsd-signature-type">TransactionRepositoryMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L183">src/metadata-args/MetadataArgsStorage.ts:183</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>propertyName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/transactionrepositorymetadataargs.html" class="tsd-signature-type">TransactionRepositoryMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="filteruniques" class="tsd-anchor"></a>
+					<h3>filter<wbr>Uniques</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Uniques<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/uniquemetadataargs.html" class="tsd-signature-type">UniqueMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+						<li class="tsd-signature tsd-kind-icon">filter<wbr>Uniques<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/uniquemetadataargs.html" class="tsd-signature-type">UniqueMetadataArgs</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L116">src/metadata-args/MetadataArgsStorage.ts:116</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/uniquemetadataargs.html" class="tsd-signature-type">UniqueMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L117">src/metadata-args/MetadataArgsStorage.ts:117</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/uniquemetadataargs.html" class="tsd-signature-type">UniqueMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="finddiscriminatorvalue" class="tsd-anchor"></a>
+					<h3>find<wbr>Discriminator<wbr>Value</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">find<wbr>Discriminator<wbr>Value<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/discriminatorvaluemetadataargs.html" class="tsd-signature-type">DiscriminatorValueMetadataArgs</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L202">src/metadata-args/MetadataArgsStorage.ts:202</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/discriminatorvaluemetadataargs.html" class="tsd-signature-type">DiscriminatorValueMetadataArgs</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="findgenerated" class="tsd-anchor"></a>
+					<h3>find<wbr>Generated</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">find<wbr>Generated<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span>, propertyName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/generatedmetadataargs.html" class="tsd-signature-type">GeneratedMetadataArgs</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+						<li class="tsd-signature tsd-kind-icon">find<wbr>Generated<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span>, propertyName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/generatedmetadataargs.html" class="tsd-signature-type">GeneratedMetadataArgs</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L75">src/metadata-args/MetadataArgsStorage.ts:75</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>propertyName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/generatedmetadataargs.html" class="tsd-signature-type">GeneratedMetadataArgs</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L76">src/metadata-args/MetadataArgsStorage.ts:76</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+								<li>
+									<h5>propertyName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/generatedmetadataargs.html" class="tsd-signature-type">GeneratedMetadataArgs</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="findinheritancetype" class="tsd-anchor"></a>
+					<h3>find<wbr>Inheritance<wbr>Type</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">find<wbr>Inheritance<wbr>Type<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/inheritancemetadataargs.html" class="tsd-signature-type">InheritanceMetadataArgs</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L198">src/metadata-args/MetadataArgsStorage.ts:198</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/inheritancemetadataargs.html" class="tsd-signature-type">InheritanceMetadataArgs</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="findjointable" class="tsd-anchor"></a>
+					<h3>find<wbr>Join<wbr>Table</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">find<wbr>Join<wbr>Table<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span>, propertyName<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/jointablemetadataargs.html" class="tsd-signature-type">JoinTableMetadataArgs</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L152">src/metadata-args/MetadataArgsStorage.ts:152</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+								<li>
+									<h5>propertyName: <span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/jointablemetadataargs.html" class="tsd-signature-type">JoinTableMetadataArgs</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="findtree" class="tsd-anchor"></a>
+					<h3>find<wbr>Tree</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">find<wbr>Tree<span class="tsd-signature-symbol">(</span>target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="../interfaces/treemetadataargs.html" class="tsd-signature-type">TreeMetadataArgs</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-args/MetadataArgsStorage.ts#L83">src/metadata-args/MetadataArgsStorage.ts:83</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>target: <span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-symbol">(</span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="../interfaces/treemetadataargs.html" class="tsd-signature-type">TreeMetadataArgs</a>
+								<span class="tsd-signature-symbol"> | </span>
+								<span class="tsd-signature-type">undefined</span>
+							</h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="metadataargsstorage.html" class="tsd-kind-icon">Metadata<wbr>Args<wbr>Storage</a>
+						<ul>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#checks" class="tsd-kind-icon">checks</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#columns" class="tsd-kind-icon">columns</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#discriminatorvalues" class="tsd-kind-icon">discriminator<wbr>Values</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#embeddeds" class="tsd-kind-icon">embeddeds</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#entitylisteners" class="tsd-kind-icon">entity<wbr>Listeners</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#entityrepositories" class="tsd-kind-icon">entity<wbr>Repositories</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#entitysubscribers" class="tsd-kind-icon">entity<wbr>Subscribers</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#exclusions" class="tsd-kind-icon">exclusions</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#generations" class="tsd-kind-icon">generations</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#indices" class="tsd-kind-icon">indices</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#inheritances" class="tsd-kind-icon">inheritances</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#joincolumns" class="tsd-kind-icon">join<wbr>Columns</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#jointables" class="tsd-kind-icon">join<wbr>Tables</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#namingstrategies" class="tsd-kind-icon">naming<wbr>Strategies</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#relationcounts" class="tsd-kind-icon">relation<wbr>Counts</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#relationids" class="tsd-kind-icon">relation<wbr>Ids</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#relations" class="tsd-kind-icon">relations</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#tables" class="tsd-kind-icon">tables</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#transactionentitymanagers" class="tsd-kind-icon">transaction<wbr>Entity<wbr>Managers</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#transactionrepositories" class="tsd-kind-icon">transaction<wbr>Repositories</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#trees" class="tsd-kind-icon">trees</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#uniques" class="tsd-kind-icon">uniques</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-protected">
+								<a href="metadataargsstorage.html#filterbytarget" class="tsd-kind-icon">filter<wbr>ByTarget</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-protected">
+								<a href="metadataargsstorage.html#filterbytargetandwithoutduplicateembeddedproperties" class="tsd-kind-icon">filter<wbr>ByTarget<wbr>And<wbr>Without<wbr>Duplicate<wbr>Embedded<wbr>Properties</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-has-type-parameter tsd-is-protected">
+								<a href="metadataargsstorage.html#filterbytargetandwithoutduplicateproperties" class="tsd-kind-icon">filter<wbr>ByTarget<wbr>And<wbr>Without<wbr>Duplicate<wbr>Properties</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#filterchecks" class="tsd-kind-icon">filter<wbr>Checks</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#filtercolumns" class="tsd-kind-icon">filter<wbr>Columns</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#filterembeddeds" class="tsd-kind-icon">filter<wbr>Embeddeds</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#filterexclusions" class="tsd-kind-icon">filter<wbr>Exclusions</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#filterindices" class="tsd-kind-icon">filter<wbr>Indices</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#filterjoincolumns" class="tsd-kind-icon">filter<wbr>Join<wbr>Columns</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#filterlisteners" class="tsd-kind-icon">filter<wbr>Listeners</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#filternamingstrategies" class="tsd-kind-icon">filter<wbr>Naming<wbr>Strategies</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#filterrelationcounts" class="tsd-kind-icon">filter<wbr>Relation<wbr>Counts</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#filterrelationids" class="tsd-kind-icon">filter<wbr>Relation<wbr>Ids</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#filterrelations" class="tsd-kind-icon">filter<wbr>Relations</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#filtersingletablechildren" class="tsd-kind-icon">filter<wbr>Single<wbr>Table<wbr>Children</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#filtersubscribers" class="tsd-kind-icon">filter<wbr>Subscribers</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#filtertables" class="tsd-kind-icon">filter<wbr>Tables</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#filtertransactionentitymanagers" class="tsd-kind-icon">filter<wbr>Transaction<wbr>Entity<wbr>Managers</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#filtertransactionrepository" class="tsd-kind-icon">filter<wbr>Transaction<wbr>Repository</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#filteruniques" class="tsd-kind-icon">filter<wbr>Uniques</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#finddiscriminatorvalue" class="tsd-kind-icon">find<wbr>Discriminator<wbr>Value</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#findgenerated" class="tsd-kind-icon">find<wbr>Generated</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#findinheritancetype" class="tsd-kind-icon">find<wbr>Inheritance<wbr>Type</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#findjointable" class="tsd-kind-icon">find<wbr>Join<wbr>Table</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="metadataargsstorage.html#findtree" class="tsd-kind-icon">find<wbr>Tree</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

@@ -1,0 +1,601 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Broadcaster | typeorm</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">typeorm</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="broadcaster.html">Broadcaster</a>
+				</li>
+			</ul>
+			<h1>Class Broadcaster</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Broadcaster provides a helper methods to broadcast events to the subscribers.</p>
+					</div>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">Broadcaster</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="broadcaster.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-private tsd-is-private-protected">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="broadcaster.html#queryrunner" class="tsd-kind-icon">query<wbr>Runner</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="broadcaster.html#broadcastafterinsertevent" class="tsd-kind-icon">broadcast<wbr>After<wbr>Insert<wbr>Event</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="broadcaster.html#broadcastafterremoveevent" class="tsd-kind-icon">broadcast<wbr>After<wbr>Remove<wbr>Event</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="broadcaster.html#broadcastafterupdateevent" class="tsd-kind-icon">broadcast<wbr>After<wbr>Update<wbr>Event</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="broadcaster.html#broadcastbeforeinsertevent" class="tsd-kind-icon">broadcast<wbr>Before<wbr>Insert<wbr>Event</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="broadcaster.html#broadcastbeforeremoveevent" class="tsd-kind-icon">broadcast<wbr>Before<wbr>Remove<wbr>Event</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="broadcaster.html#broadcastbeforeupdateevent" class="tsd-kind-icon">broadcast<wbr>Before<wbr>Update<wbr>Event</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="broadcaster.html#broadcastloadeventsforall" class="tsd-kind-icon">broadcast<wbr>Load<wbr>Events<wbr>For<wbr>All</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="broadcaster.html#isallowedsubscriber" class="tsd-kind-icon">is<wbr>Allowed<wbr>Subscriber</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Broadcaster<span class="tsd-signature-symbol">(</span>queryRunner<span class="tsd-signature-symbol">: </span><a href="../interfaces/queryrunner.html" class="tsd-signature-type">QueryRunner</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="broadcaster.html" class="tsd-signature-type">Broadcaster</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/subscriber/Broadcaster.ts#L12">src/subscriber/Broadcaster.ts:12</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>queryRunner: <a href="../interfaces/queryrunner.html" class="tsd-signature-type">QueryRunner</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="broadcaster.html" class="tsd-signature-type">Broadcaster</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-private tsd-is-private-protected">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="queryrunner" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> query<wbr>Runner</h3>
+					<div class="tsd-signature tsd-kind-icon">query<wbr>Runner<span class="tsd-signature-symbol">:</span> <a href="../interfaces/queryrunner.html" class="tsd-signature-type">QueryRunner</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/subscriber/Broadcaster.ts#L18">src/subscriber/Broadcaster.ts:18</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="broadcastafterinsertevent" class="tsd-anchor"></a>
+					<h3>broadcast<wbr>After<wbr>Insert<wbr>Event</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">broadcast<wbr>After<wbr>Insert<wbr>Event<span class="tsd-signature-symbol">(</span>result<span class="tsd-signature-symbol">: </span><a href="broadcasterresult.html" class="tsd-signature-type">BroadcasterResult</a>, metadata<span class="tsd-signature-symbol">: </span><a href="entitymetadata.html" class="tsd-signature-type">EntityMetadata</a>, entity<span class="tsd-signature-symbol">?: </span><a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/subscriber/Broadcaster.ts#L153">src/subscriber/Broadcaster.ts:153</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Broadcasts &quot;AFTER_INSERT&quot; event.
+										After insert event is executed after entity is being persisted to the database for the first time.
+										All subscribers and entity listeners who listened to this event will be executed at this point.
+									Subscribers and entity listeners can return promises, it will wait until they are resolved.</p>
+								</div>
+								<p>Note: this method has a performance-optimized code organization, do not change code structure.</p>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>result: <a href="broadcasterresult.html" class="tsd-signature-type">BroadcasterResult</a></h5>
+								</li>
+								<li>
+									<h5>metadata: <a href="entitymetadata.html" class="tsd-signature-type">EntityMetadata</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> entity: <a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="broadcastafterremoveevent" class="tsd-anchor"></a>
+					<h3>broadcast<wbr>After<wbr>Remove<wbr>Event</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">broadcast<wbr>After<wbr>Remove<wbr>Event<span class="tsd-signature-symbol">(</span>result<span class="tsd-signature-symbol">: </span><a href="broadcasterresult.html" class="tsd-signature-type">BroadcasterResult</a>, metadata<span class="tsd-signature-symbol">: </span><a href="entitymetadata.html" class="tsd-signature-type">EntityMetadata</a>, entity<span class="tsd-signature-symbol">?: </span><a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a>, databaseEntity<span class="tsd-signature-symbol">?: </span><a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/subscriber/Broadcaster.ts#L234">src/subscriber/Broadcaster.ts:234</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Broadcasts &quot;AFTER_REMOVE&quot; event.
+										After remove event is executed after entity is being removed from the database.
+										All subscribers and entity listeners who listened to this event will be executed at this point.
+									Subscribers and entity listeners can return promises, it will wait until they are resolved.</p>
+								</div>
+								<p>Note: this method has a performance-optimized code organization, do not change code structure.</p>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>result: <a href="broadcasterresult.html" class="tsd-signature-type">BroadcasterResult</a></h5>
+								</li>
+								<li>
+									<h5>metadata: <a href="entitymetadata.html" class="tsd-signature-type">EntityMetadata</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> entity: <a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> databaseEntity: <a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="broadcastafterupdateevent" class="tsd-anchor"></a>
+					<h3>broadcast<wbr>After<wbr>Update<wbr>Event</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">broadcast<wbr>After<wbr>Update<wbr>Event<span class="tsd-signature-symbol">(</span>result<span class="tsd-signature-symbol">: </span><a href="broadcasterresult.html" class="tsd-signature-type">BroadcasterResult</a>, metadata<span class="tsd-signature-symbol">: </span><a href="entitymetadata.html" class="tsd-signature-type">EntityMetadata</a>, entity<span class="tsd-signature-symbol">?: </span><a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a>, databaseEntity<span class="tsd-signature-symbol">?: </span><a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a>, updatedColumns<span class="tsd-signature-symbol">?: </span><a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol">[]</span>, updatedRelations<span class="tsd-signature-symbol">?: </span><a href="relationmetadata.html" class="tsd-signature-type">RelationMetadata</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/subscriber/Broadcaster.ts#L192">src/subscriber/Broadcaster.ts:192</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Broadcasts &quot;AFTER_UPDATE&quot; event.
+										After update event is executed after entity is being updated in the database.
+										All subscribers and entity listeners who listened to this event will be executed at this point.
+									Subscribers and entity listeners can return promises, it will wait until they are resolved.</p>
+								</div>
+								<p>Note: this method has a performance-optimized code organization, do not change code structure.</p>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>result: <a href="broadcasterresult.html" class="tsd-signature-type">BroadcasterResult</a></h5>
+								</li>
+								<li>
+									<h5>metadata: <a href="entitymetadata.html" class="tsd-signature-type">EntityMetadata</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> entity: <a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> databaseEntity: <a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> updatedColumns: <a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> updatedRelations: <a href="relationmetadata.html" class="tsd-signature-type">RelationMetadata</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="broadcastbeforeinsertevent" class="tsd-anchor"></a>
+					<h3>broadcast<wbr>Before<wbr>Insert<wbr>Event</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">broadcast<wbr>Before<wbr>Insert<wbr>Event<span class="tsd-signature-symbol">(</span>result<span class="tsd-signature-symbol">: </span><a href="broadcasterresult.html" class="tsd-signature-type">BroadcasterResult</a>, metadata<span class="tsd-signature-symbol">: </span><a href="entitymetadata.html" class="tsd-signature-type">EntityMetadata</a>, entity<span class="tsd-signature-symbol">?: </span><a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/subscriber/Broadcaster.ts#L33">src/subscriber/Broadcaster.ts:33</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Broadcasts &quot;BEFORE_INSERT&quot; event.
+										Before insert event is executed before entity is being inserted to the database for the first time.
+										All subscribers and entity listeners who listened to this event will be executed at this point.
+									Subscribers and entity listeners can return promises, it will wait until they are resolved.</p>
+								</div>
+								<p>Note: this method has a performance-optimized code organization, do not change code structure.</p>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>result: <a href="broadcasterresult.html" class="tsd-signature-type">BroadcasterResult</a></h5>
+								</li>
+								<li>
+									<h5>metadata: <a href="entitymetadata.html" class="tsd-signature-type">EntityMetadata</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> entity: <a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="broadcastbeforeremoveevent" class="tsd-anchor"></a>
+					<h3>broadcast<wbr>Before<wbr>Remove<wbr>Event</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">broadcast<wbr>Before<wbr>Remove<wbr>Event<span class="tsd-signature-symbol">(</span>result<span class="tsd-signature-symbol">: </span><a href="broadcasterresult.html" class="tsd-signature-type">BroadcasterResult</a>, metadata<span class="tsd-signature-symbol">: </span><a href="entitymetadata.html" class="tsd-signature-type">EntityMetadata</a>, entity<span class="tsd-signature-symbol">?: </span><a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a>, databaseEntity<span class="tsd-signature-symbol">?: </span><a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/subscriber/Broadcaster.ts#L113">src/subscriber/Broadcaster.ts:113</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Broadcasts &quot;BEFORE_REMOVE&quot; event.
+										Before remove event is executed before entity is being removed from the database.
+										All subscribers and entity listeners who listened to this event will be executed at this point.
+									Subscribers and entity listeners can return promises, it will wait until they are resolved.</p>
+								</div>
+								<p>Note: this method has a performance-optimized code organization, do not change code structure.</p>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>result: <a href="broadcasterresult.html" class="tsd-signature-type">BroadcasterResult</a></h5>
+								</li>
+								<li>
+									<h5>metadata: <a href="entitymetadata.html" class="tsd-signature-type">EntityMetadata</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> entity: <a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> databaseEntity: <a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="broadcastbeforeupdateevent" class="tsd-anchor"></a>
+					<h3>broadcast<wbr>Before<wbr>Update<wbr>Event</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">broadcast<wbr>Before<wbr>Update<wbr>Event<span class="tsd-signature-symbol">(</span>result<span class="tsd-signature-symbol">: </span><a href="broadcasterresult.html" class="tsd-signature-type">BroadcasterResult</a>, metadata<span class="tsd-signature-symbol">: </span><a href="entitymetadata.html" class="tsd-signature-type">EntityMetadata</a>, entity<span class="tsd-signature-symbol">?: </span><a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a>, databaseEntity<span class="tsd-signature-symbol">?: </span><a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a>, updatedColumns<span class="tsd-signature-symbol">?: </span><a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol">[]</span>, updatedRelations<span class="tsd-signature-symbol">?: </span><a href="relationmetadata.html" class="tsd-signature-type">RelationMetadata</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/subscriber/Broadcaster.ts#L72">src/subscriber/Broadcaster.ts:72</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Broadcasts &quot;BEFORE_UPDATE&quot; event.
+										Before update event is executed before entity is being updated in the database.
+										All subscribers and entity listeners who listened to this event will be executed at this point.
+									Subscribers and entity listeners can return promises, it will wait until they are resolved.</p>
+								</div>
+								<p>Note: this method has a performance-optimized code organization, do not change code structure.</p>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>result: <a href="broadcasterresult.html" class="tsd-signature-type">BroadcasterResult</a></h5>
+								</li>
+								<li>
+									<h5>metadata: <a href="entitymetadata.html" class="tsd-signature-type">EntityMetadata</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> entity: <a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> databaseEntity: <a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> updatedColumns: <a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+								<li>
+									<h5><span class="tsd-flag ts-flagOptional">Optional</span> updatedRelations: <a href="relationmetadata.html" class="tsd-signature-type">RelationMetadata</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="broadcastloadeventsforall" class="tsd-anchor"></a>
+					<h3>broadcast<wbr>Load<wbr>Events<wbr>For<wbr>All</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">broadcast<wbr>Load<wbr>Events<wbr>For<wbr>All<span class="tsd-signature-symbol">(</span>result<span class="tsd-signature-symbol">: </span><a href="broadcasterresult.html" class="tsd-signature-type">BroadcasterResult</a>, metadata<span class="tsd-signature-symbol">: </span><a href="entitymetadata.html" class="tsd-signature-type">EntityMetadata</a>, entities<span class="tsd-signature-symbol">: </span><a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">void</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/subscriber/Broadcaster.ts#L275">src/subscriber/Broadcaster.ts:275</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Broadcasts &quot;AFTER_LOAD&quot; event for all given entities, and their sub-entities.
+										After load event is executed after entity has been loaded from the database.
+										All subscribers and entity listeners who listened to this event will be executed at this point.
+									Subscribers and entity listeners can return promises, it will wait until they are resolved.</p>
+								</div>
+								<p>Note: this method has a performance-optimized code organization, do not change code structure.</p>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>result: <a href="broadcasterresult.html" class="tsd-signature-type">BroadcasterResult</a></h5>
+								</li>
+								<li>
+									<h5>metadata: <a href="entitymetadata.html" class="tsd-signature-type">EntityMetadata</a></h5>
+								</li>
+								<li>
+									<h5>entities: <a href="../interfaces/objectliteral.html" class="tsd-signature-type">ObjectLiteral</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">void</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="isallowedsubscriber" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> is<wbr>Allowed<wbr>Subscriber</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">is<wbr>Allowed<wbr>Subscriber<span class="tsd-signature-symbol">(</span>subscriber<span class="tsd-signature-symbol">: </span><a href="../interfaces/entitysubscriberinterface.html" class="tsd-signature-type">EntitySubscriberInterface</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span>, target<span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">boolean</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/subscriber/Broadcaster.ts#L332">src/subscriber/Broadcaster.ts:332</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Checks if subscriber&#39;s methods can be executed by checking if its don&#39;t listen to the particular entity,
+									or listens our entity.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>subscriber: <a href="../interfaces/entitysubscriberinterface.html" class="tsd-signature-type">EntitySubscriberInterface</a><span class="tsd-signature-symbol">&lt;</span><span class="tsd-signature-type">any</span><span class="tsd-signature-symbol">&gt;</span></h5>
+								</li>
+								<li>
+									<h5>target: <span class="tsd-signature-type">Function</span><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">string</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">boolean</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="broadcaster.html" class="tsd-kind-icon">Broadcaster</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="broadcaster.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="broadcaster.html#queryrunner" class="tsd-kind-icon">query<wbr>Runner</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="broadcaster.html#broadcastafterinsertevent" class="tsd-kind-icon">broadcast<wbr>After<wbr>Insert<wbr>Event</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="broadcaster.html#broadcastafterremoveevent" class="tsd-kind-icon">broadcast<wbr>After<wbr>Remove<wbr>Event</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="broadcaster.html#broadcastafterupdateevent" class="tsd-kind-icon">broadcast<wbr>After<wbr>Update<wbr>Event</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="broadcaster.html#broadcastbeforeinsertevent" class="tsd-kind-icon">broadcast<wbr>Before<wbr>Insert<wbr>Event</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="broadcaster.html#broadcastbeforeremoveevent" class="tsd-kind-icon">broadcast<wbr>Before<wbr>Remove<wbr>Event</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="broadcaster.html#broadcastbeforeupdateevent" class="tsd-kind-icon">broadcast<wbr>Before<wbr>Update<wbr>Event</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="broadcaster.html#broadcastloadeventsforall" class="tsd-kind-icon">broadcast<wbr>Load<wbr>Events<wbr>For<wbr>All</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="broadcaster.html#isallowedsubscriber" class="tsd-kind-icon">is<wbr>Allowed<wbr>Subscriber</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>

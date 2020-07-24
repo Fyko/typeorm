@@ -1,0 +1,401 @@
+<!doctype html>
+<html class="default no-js">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>RelationJoinColumnBuilder | typeorm</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="../assets/css/main.css">
+</head>
+<body>
+<header>
+	<div class="tsd-page-toolbar">
+		<div class="container">
+			<div class="table-wrap">
+				<div class="table-cell" id="tsd-search" data-index="../assets/js/search.js" data-base="..">
+					<div class="field">
+						<label for="tsd-search-field" class="tsd-widget search no-caption">Search</label>
+						<input id="tsd-search-field" type="text" />
+					</div>
+					<ul class="results">
+						<li class="state loading">Preparing search index...</li>
+						<li class="state failure">The search index is not available</li>
+					</ul>
+					<a href="../index.html" class="title">typeorm</a>
+				</div>
+				<div class="table-cell" id="tsd-widgets">
+					<div id="tsd-filter">
+						<a href="#" class="tsd-widget options no-caption" data-toggle="options">Options</a>
+						<div class="tsd-filter-group">
+							<div class="tsd-select" id="tsd-filter-visibility">
+								<span class="tsd-select-label">All</span>
+								<ul class="tsd-select-list">
+									<li data-value="public">Public</li>
+									<li data-value="protected">Public/Protected</li>
+									<li data-value="private" class="selected">All</li>
+								</ul>
+							</div>
+							<input type="checkbox" id="tsd-filter-inherited" checked />
+							<label class="tsd-widget" for="tsd-filter-inherited">Inherited</label>
+							<input type="checkbox" id="tsd-filter-externals" checked />
+							<label class="tsd-widget" for="tsd-filter-externals">Externals</label>
+							<input type="checkbox" id="tsd-filter-only-exported" />
+							<label class="tsd-widget" for="tsd-filter-only-exported">Only exported</label>
+						</div>
+					</div>
+					<a href="#" class="tsd-widget menu no-caption" data-toggle="menu">Menu</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="tsd-page-title">
+		<div class="container">
+			<ul class="tsd-breadcrumb">
+				<li>
+					<a href="../globals.html">Globals</a>
+				</li>
+				<li>
+					<a href="relationjoincolumnbuilder.html">RelationJoinColumnBuilder</a>
+				</li>
+			</ul>
+			<h1>Class RelationJoinColumnBuilder</h1>
+		</div>
+	</div>
+</header>
+<div class="container container-main">
+	<div class="row">
+		<div class="col-8 col-content">
+			<section class="tsd-panel tsd-comment">
+				<div class="tsd-comment tsd-typography">
+					<div class="lead">
+						<p>Builds join column for the many-to-one and one-to-one owner relations.</p>
+					</div>
+					<p>Cases it should cover:</p>
+					<ol>
+						<li>when join column is set with custom name and without referenced column name
+						we need automatically set referenced column name - primary ids by default</li>
+					</ol>
+					<dl class="tsd-comment-tags">
+						<dt>joincolumn({</dt>
+						<dd><p>name: &quot;custom_name&quot; })</p>
+							<ol start="2">
+								<li>when join column is set with only referenced column name
+								we need automatically set join column name - relation name + referenced column name</li>
+							</ol>
+						</dd>
+						<dt>joincolumn({</dt>
+						<dd><p>referencedColumnName: &quot;title&quot; })</p>
+							<ol start="3">
+								<li>when join column is set without both referenced column name and join column name
+								we need to automatically set both of them</li>
+							</ol>
+						</dd>
+						<dt>joincolumn()</dt>
+						<dd><ol start="4">
+								<li><p>when join column is not set at all (as in case of @ManyToOne relation)
+									we need to create join column for it with proper referenced column name and join column name</p>
+								</li>
+								<li><p>when multiple join columns set none of referencedColumnName and name can be optional
+									both options are required</p>
+								</li>
+							</ol>
+						</dd>
+						<dt>joincolumn([</dt>
+						<dd><pre><code> { <span class="hljs-attribute">name</span>: <span class="hljs-string">"category_title"</span>, referencedColumnName: <span class="hljs-string">"type"</span> },
+ { <span class="hljs-attribute">name</span>: <span class="hljs-string">"category_title"</span>, referencedColumnName: <span class="hljs-string">"name"</span> },</code></pre><p>])</p>
+							<p>Since for many-to-one relations having JoinColumn decorator is not required,
+								we need to go thought each many-to-one relation without join column decorator set
+							and create join column metadata args for them.</p>
+						</dd>
+					</dl>
+				</div>
+			</section>
+			<section class="tsd-panel tsd-hierarchy">
+				<h3>Hierarchy</h3>
+				<ul class="tsd-hierarchy">
+					<li>
+						<span class="target">RelationJoinColumnBuilder</span>
+					</li>
+				</ul>
+			</section>
+			<section class="tsd-panel-group tsd-index-group">
+				<h2>Index</h2>
+				<section class="tsd-panel tsd-index-panel">
+					<div class="tsd-index-content">
+						<section class="tsd-index-section ">
+							<h3>Constructors</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-constructor tsd-parent-kind-class"><a href="relationjoincolumnbuilder.html#constructor" class="tsd-kind-icon">constructor</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section tsd-is-private tsd-is-private-protected">
+							<h3>Properties</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><a href="relationjoincolumnbuilder.html#connection" class="tsd-kind-icon">connection</a></li>
+							</ul>
+						</section>
+						<section class="tsd-index-section ">
+							<h3>Methods</h3>
+							<ul class="tsd-index-list">
+								<li class="tsd-kind-method tsd-parent-kind-class"><a href="relationjoincolumnbuilder.html#build" class="tsd-kind-icon">build</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><a href="relationjoincolumnbuilder.html#collectcolumns" class="tsd-kind-icon">collect<wbr>Columns</a></li>
+								<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><a href="relationjoincolumnbuilder.html#collectreferencedcolumns" class="tsd-kind-icon">collect<wbr>Referenced<wbr>Columns</a></li>
+							</ul>
+						</section>
+					</div>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Constructors</h2>
+				<section class="tsd-panel tsd-member tsd-kind-constructor tsd-parent-kind-class">
+					<a name="constructor" class="tsd-anchor"></a>
+					<h3>constructor</h3>
+					<ul class="tsd-signatures tsd-kind-constructor tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">new <wbr>Relation<wbr>Join<wbr>Column<wbr>Builder<span class="tsd-signature-symbol">(</span>connection<span class="tsd-signature-symbol">: </span><a href="connection.html" class="tsd-signature-type">Connection</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="relationjoincolumnbuilder.html" class="tsd-signature-type">RelationJoinColumnBuilder</a></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-builder/RelationJoinColumnBuilder.ts#L41">src/metadata-builder/RelationJoinColumnBuilder.ts:41</a></li>
+								</ul>
+							</aside>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>connection: <a href="connection.html" class="tsd-signature-type">Connection</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="relationjoincolumnbuilder.html" class="tsd-signature-type">RelationJoinColumnBuilder</a></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group tsd-is-private tsd-is-private-protected">
+				<h2>Properties</h2>
+				<section class="tsd-panel tsd-member tsd-kind-property tsd-parent-kind-class tsd-is-private">
+					<a name="connection" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> connection</h3>
+					<div class="tsd-signature tsd-kind-icon">connection<span class="tsd-signature-symbol">:</span> <a href="connection.html" class="tsd-signature-type">Connection</a></div>
+					<aside class="tsd-sources">
+						<ul>
+							<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-builder/RelationJoinColumnBuilder.ts#L47">src/metadata-builder/RelationJoinColumnBuilder.ts:47</a></li>
+						</ul>
+					</aside>
+				</section>
+			</section>
+			<section class="tsd-panel-group tsd-member-group ">
+				<h2>Methods</h2>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class">
+					<a name="build" class="tsd-anchor"></a>
+					<h3>build</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class">
+						<li class="tsd-signature tsd-kind-icon">build<span class="tsd-signature-symbol">(</span>joinColumns<span class="tsd-signature-symbol">: </span><a href="../interfaces/joincolumnmetadataargs.html" class="tsd-signature-type">JoinColumnMetadataArgs</a><span class="tsd-signature-symbol">[]</span>, relation<span class="tsd-signature-symbol">: </span><a href="relationmetadata.html" class="tsd-signature-type">RelationMetadata</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><span class="tsd-signature-type">object</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-builder/RelationJoinColumnBuilder.ts#L57">src/metadata-builder/RelationJoinColumnBuilder.ts:57</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Builds a foreign key of the many-to-one or one-to-one owner relations.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>joinColumns: <a href="../interfaces/joincolumnmetadataargs.html" class="tsd-signature-type">JoinColumnMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+								<li>
+									<h5>relation: <a href="relationmetadata.html" class="tsd-signature-type">RelationMetadata</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <span class="tsd-signature-type">object</span></h4>
+							<ul class="tsd-parameters">
+								<li class="tsd-parameter">
+									<h5>foreign<wbr>Key<span class="tsd-signature-symbol">: </span><a href="foreignkeymetadata.html" class="tsd-signature-type">ForeignKeyMetadata</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+								</li>
+								<li class="tsd-parameter">
+									<h5>unique<wbr>Constraint<span class="tsd-signature-symbol">: </span><a href="uniquemetadata.html" class="tsd-signature-type">UniqueMetadata</a><span class="tsd-signature-symbol"> | </span><span class="tsd-signature-type">undefined</span></h5>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-private">
+					<a name="collectcolumns" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagPrivate">Private</span> collect<wbr>Columns</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-private">
+						<li class="tsd-signature tsd-kind-icon">collect<wbr>Columns<span class="tsd-signature-symbol">(</span>joinColumns<span class="tsd-signature-symbol">: </span><a href="../interfaces/joincolumnmetadataargs.html" class="tsd-signature-type">JoinColumnMetadataArgs</a><span class="tsd-signature-symbol">[]</span>, relation<span class="tsd-signature-symbol">: </span><a href="relationmetadata.html" class="tsd-signature-type">RelationMetadata</a>, referencedColumns<span class="tsd-signature-symbol">: </span><a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol">[]</span><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-builder/RelationJoinColumnBuilder.ts#L126">src/metadata-builder/RelationJoinColumnBuilder.ts:126</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Collects columns from the given join column args.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>joinColumns: <a href="../interfaces/joincolumnmetadataargs.html" class="tsd-signature-type">JoinColumnMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+								<li>
+									<h5>relation: <a href="relationmetadata.html" class="tsd-signature-type">RelationMetadata</a></h5>
+								</li>
+								<li>
+									<h5>referencedColumns: <a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+				<section class="tsd-panel tsd-member tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+					<a name="collectreferencedcolumns" class="tsd-anchor"></a>
+					<h3><span class="tsd-flag ts-flagProtected">Protected</span> collect<wbr>Referenced<wbr>Columns</h3>
+					<ul class="tsd-signatures tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+						<li class="tsd-signature tsd-kind-icon">collect<wbr>Referenced<wbr>Columns<span class="tsd-signature-symbol">(</span>joinColumns<span class="tsd-signature-symbol">: </span><a href="../interfaces/joincolumnmetadataargs.html" class="tsd-signature-type">JoinColumnMetadataArgs</a><span class="tsd-signature-symbol">[]</span>, relation<span class="tsd-signature-symbol">: </span><a href="relationmetadata.html" class="tsd-signature-type">RelationMetadata</a><span class="tsd-signature-symbol">)</span><span class="tsd-signature-symbol">: </span><a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol">[]</span></li>
+					</ul>
+					<ul class="tsd-descriptions">
+						<li class="tsd-description">
+							<aside class="tsd-sources">
+								<ul>
+									<li>Defined in <a href="https://github.com/Fyko/typeorm/blob/e9fcbbf8/src/metadata-builder/RelationJoinColumnBuilder.ts#L104">src/metadata-builder/RelationJoinColumnBuilder.ts:104</a></li>
+								</ul>
+							</aside>
+							<div class="tsd-comment tsd-typography">
+								<div class="lead">
+									<p>Collects referenced columns from the given join column args.</p>
+								</div>
+							</div>
+							<h4 class="tsd-parameters-title">Parameters</h4>
+							<ul class="tsd-parameters">
+								<li>
+									<h5>joinColumns: <a href="../interfaces/joincolumnmetadataargs.html" class="tsd-signature-type">JoinColumnMetadataArgs</a><span class="tsd-signature-symbol">[]</span></h5>
+								</li>
+								<li>
+									<h5>relation: <a href="relationmetadata.html" class="tsd-signature-type">RelationMetadata</a></h5>
+								</li>
+							</ul>
+							<h4 class="tsd-returns-title">Returns <a href="columnmetadata.html" class="tsd-signature-type">ColumnMetadata</a><span class="tsd-signature-symbol">[]</span></h4>
+						</li>
+					</ul>
+				</section>
+			</section>
+		</div>
+		<div class="col-4 col-menu menu-sticky-wrap menu-highlight">
+			<nav class="tsd-navigation primary">
+				<ul>
+					<li class="globals  ">
+						<a href="../globals.html"><em>Globals</em></a>
+					</li>
+				</ul>
+			</nav>
+			<nav class="tsd-navigation secondary menu-sticky">
+				<ul class="before-current">
+				</ul>
+				<ul class="current">
+					<li class="current tsd-kind-class">
+						<a href="relationjoincolumnbuilder.html" class="tsd-kind-icon">Relation<wbr>Join<wbr>Column<wbr>Builder</a>
+						<ul>
+							<li class=" tsd-kind-constructor tsd-parent-kind-class">
+								<a href="relationjoincolumnbuilder.html#constructor" class="tsd-kind-icon">constructor</a>
+							</li>
+							<li class=" tsd-kind-property tsd-parent-kind-class tsd-is-private">
+								<a href="relationjoincolumnbuilder.html#connection" class="tsd-kind-icon">connection</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class">
+								<a href="relationjoincolumnbuilder.html#build" class="tsd-kind-icon">build</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-private">
+								<a href="relationjoincolumnbuilder.html#collectcolumns" class="tsd-kind-icon">collect<wbr>Columns</a>
+							</li>
+							<li class=" tsd-kind-method tsd-parent-kind-class tsd-is-protected">
+								<a href="relationjoincolumnbuilder.html#collectreferencedcolumns" class="tsd-kind-icon">collect<wbr>Referenced<wbr>Columns</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="after-current">
+				</ul>
+			</nav>
+		</div>
+	</div>
+</div>
+<footer class="with-border-bottom">
+	<div class="container">
+		<h2>Legend</h2>
+		<div class="tsd-legend-group">
+			<ul class="tsd-legend">
+				<li class="tsd-kind-module"><span class="tsd-kind-icon">Module</span></li>
+				<li class="tsd-kind-object-literal"><span class="tsd-kind-icon">Object literal</span></li>
+				<li class="tsd-kind-variable"><span class="tsd-kind-icon">Variable</span></li>
+				<li class="tsd-kind-function"><span class="tsd-kind-icon">Function</span></li>
+				<li class="tsd-kind-function tsd-has-type-parameter"><span class="tsd-kind-icon">Function with type parameter</span></li>
+				<li class="tsd-kind-index-signature"><span class="tsd-kind-icon">Index signature</span></li>
+				<li class="tsd-kind-type-alias"><span class="tsd-kind-icon">Type alias</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-enum"><span class="tsd-kind-icon">Enumeration</span></li>
+				<li class="tsd-kind-enum-member"><span class="tsd-kind-icon">Enumeration member</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-enum"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-enum"><span class="tsd-kind-icon">Method</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-interface"><span class="tsd-kind-icon">Interface</span></li>
+				<li class="tsd-kind-interface tsd-has-type-parameter"><span class="tsd-kind-icon">Interface with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-interface"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-interface"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-interface"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-interface"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-class"><span class="tsd-kind-icon">Class</span></li>
+				<li class="tsd-kind-class tsd-has-type-parameter"><span class="tsd-kind-icon">Class with type parameter</span></li>
+				<li class="tsd-kind-constructor tsd-parent-kind-class"><span class="tsd-kind-icon">Constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class"><span class="tsd-kind-icon">Property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class"><span class="tsd-kind-icon">Method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class"><span class="tsd-kind-icon">Accessor</span></li>
+				<li class="tsd-kind-index-signature tsd-parent-kind-class"><span class="tsd-kind-icon">Index signature</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-constructor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited constructor</span></li>
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-inherited"><span class="tsd-kind-icon">Inherited accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-protected"><span class="tsd-kind-icon">Protected accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private property</span></li>
+				<li class="tsd-kind-method tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private method</span></li>
+				<li class="tsd-kind-accessor tsd-parent-kind-class tsd-is-private"><span class="tsd-kind-icon">Private accessor</span></li>
+			</ul>
+			<ul class="tsd-legend">
+				<li class="tsd-kind-property tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static property</span></li>
+				<li class="tsd-kind-call-signature tsd-parent-kind-class tsd-is-static"><span class="tsd-kind-icon">Static method</span></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<div class="container tsd-generator">
+	<p>Generated using <a href="http://typedoc.org/" target="_blank">TypeDoc</a></p>
+</div>
+<div class="overlay"></div>
+<script src="../assets/js/main.js"></script>
+<script>if (location.protocol == 'file:') document.write('<script src="../assets/js/search.js"><' + '/script>');</script>
+</body>
+</html>
